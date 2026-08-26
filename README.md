@@ -40,6 +40,6 @@ Licensed under the [Apache License, Version 2.0](LICENSE).
 
 Attribution is required: section 4(d) of the licence obliges any redistribution
 or derivative work to carry the notices in [NOTICE](NOTICE), which credit the
-original developer (No Whereman) and link back to this repository. Keep that file
+original developer (Nowhere man) and link back to this repository. Keep that file
 with your fork, or reproduce its contents in your own credits screen or docs.
 Changed files must also be marked as modified (section 4(b)).

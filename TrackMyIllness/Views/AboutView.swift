@@ -62,7 +62,7 @@ struct AboutView: View {
             VStack(spacing: 4) {
                 Text("Design by")
                     .foregroundStyle(.secondary)
-                Text("No Whereman")
+                Text("Nowhere man")
                     .font(.callout.weight(.semibold))
                 Text("Built by")
                     .foregroundStyle(.secondary)

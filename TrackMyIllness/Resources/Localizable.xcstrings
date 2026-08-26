@@ -678,9 +678,6 @@
         }
       }
     },
-    "No Whereman": {
-      "shouldTranslate": false
-    },
     "No entries in this period.": {
       "extractionState": "manual",
       "localizations": {
@@ -746,6 +743,9 @@
           }
         }
       }
+    },
+    "Nowhere man": {
+      "shouldTranslate": false
     },
     "Open Settings": {
       "extractionState": "manual",
