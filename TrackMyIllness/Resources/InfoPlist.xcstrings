@@ -1,131 +1,131 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "CFBundleDisplayName": {
-      "comment": "Bundle display name",
-      "extractionState": "extracted_with_value",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "Symptrace"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symptrace"
           }
         },
-        "ca": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symptrace"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Symptrace"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symptrace"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symptrace"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Symptrace"
           }
         }
       }
     },
-    "CFBundleName": {
-      "comment": "Bundle name",
-      "extractionState": "extracted_with_value",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "new",
-            "value": "Symptrace"
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Symptrace"
           }
         },
-        "ca": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Symptrace"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "TrackMyIllness"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Symptrace"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "it" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Symptrace"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Symptrace"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Symptrace"
           }
         }
       }
     },
-    "NSFaceIDUsageDescription": {
-      "extractionState": "manual",
-      "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Face ID desbloquea la app para que tu registro de salud siga siendo privado."
+    "NSFaceIDUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID desbloca l'app perquè el teu registre de salut continuï sent privat."
           }
         },
-        "ca": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Face ID desbloca l'app perquè el teu registre de salut continuï sent privat."
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID entsperrt die App, damit dein Gesundheitsprotokoll privat bleibt."
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Face ID entsperrt die App, damit dein Gesundheitsprotokoll privat bleibt."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID desbloquea la app para que tu registro de salud siga siendo privado."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Face ID déverrouille l'app pour que votre journal de santé reste privé."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID déverrouille l'app pour que votre journal de santé reste privé."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Face ID sblocca l'app per mantenere privato il tuo diario di salute."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID sblocca l'app per mantenere privato il tuo diario di salute."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "O Face ID desbloqueia a app para que o teu registo de saúde continue privado."
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Face ID desbloqueia a app para que o teu registo de saúde continue privado."
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }
