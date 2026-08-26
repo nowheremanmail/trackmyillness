@@ -12,6 +12,8 @@ struct RootView: View {
 
     @State private var selection: Tab = .report
     @State private var lock: AppLockViewModel
+    @State private var showingFirstSteps = false
+    @AppStorage(AppSettings.hasSeenFirstStepsKey) private var hasSeenFirstSteps = false
     @Environment(\.scenePhase) private var scenePhase
 
     init(lock: AppLockViewModel? = nil) {
@@ -41,8 +43,19 @@ struct RootView: View {
             }
         }
         .animation(.easeInOut(duration: 0.2), value: lock.isLocked)
+        .fullScreenCover(isPresented: $showingFirstSteps) {
+            FirstStepsView {
+                hasSeenFirstSteps = true
+                showingFirstSteps = false
+            }
+        }
         .onChange(of: scenePhase) { _, phase in
             lock.handle(scenePhase: phase)
+        }
+        .onAppear {
+            // Never over the lock screen: the walkthrough would be showing the app
+            // to whoever picked the phone up.
+            if !hasSeenFirstSteps, !lock.isLocked { showingFirstSteps = true }
         }
     }
 }

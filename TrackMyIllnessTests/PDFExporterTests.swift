@@ -76,6 +76,49 @@ struct PDFExporterTests {
         #expect(try Data(contentsOf: second).starts(with: Self.pdfMagic))
     }
 
+    @Test("Leaving notes out changes the report, and keeps everything else")
+    func notesCanBeLeftOut() {
+        let days = LogDay.group([
+            Fixture.entry(kind: .symptom, name: "Pain", date: Fixture.daysAgo(1),
+                          severity: 4, note: "A private note that a doctor need not read"),
+        ], calendar: calendar)
+        let with = PDFExporter.render(days: days, range: range, title: "Health log",
+                                      includeNotes: true)
+        let without = PDFExporter.render(days: days, range: range, title: "Health log",
+                                         includeNotes: false)
+        #expect(with.starts(with: Self.pdfMagic))
+        #expect(without.starts(with: Self.pdfMagic))
+        // The note is the only difference, so the shorter one is the one without it.
+        #expect(without.count < with.count)
+    }
+
+    @Test("With no notes to leave out, the switch changes nothing")
+    func notesFlagIsANoOpWithoutNotes() {
+        let days = sampleDays().map { day in
+            LogDay(date: day.date, entries: day.entries.map {
+                var entry = $0
+                entry.note = ""
+                return entry
+            })
+        }
+        let with = PDFExporter.render(days: days, range: range, title: "Health log",
+                                      includeNotes: true)
+        let without = PDFExporter.render(days: days, range: range, title: "Health log",
+                                         includeNotes: false)
+        #expect(with.count == without.count)
+    }
+
+    @Test("Notes are included unless asked otherwise")
+    func notesDefaultToIncluded() {
+        let days = LogDay.group([
+            Fixture.entry(kind: .symptom, date: Fixture.daysAgo(1), note: "Worse after walking"),
+        ], calendar: calendar)
+        let byDefault = PDFExporter.render(days: days, range: range, title: "Health log")
+        let explicit = PDFExporter.render(days: days, range: range, title: "Health log",
+                                          includeNotes: true)
+        #expect(byDefault.count == explicit.count)
+    }
+
     @Test("The file name is the app plus the period, in sortable ISO dates")
     func fileNameIsReadableAndSortable() {
         let from = Date(timeIntervalSince1970: 1_700_000_000)   // 2023-11-14 UTC

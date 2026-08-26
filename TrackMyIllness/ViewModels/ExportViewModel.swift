@@ -17,6 +17,19 @@ final class ExportViewModel {
     var kindFilter: EntryKind? {
         didSet { if kindFilter != oldValue { invalidate() } }
     }
+    /// Notes can hold anything the user wrote, so a report meant for someone else
+    /// shouldn't carry them without being asked. Remembered between exports.
+    var includesNotes: Bool {
+        didSet {
+            guard includesNotes != oldValue else { return }
+            UserDefaults.standard.set(includesNotes, forKey: AppSettings.exportIncludesNotesKey)
+            invalidate()
+        }
+    }
+
+    /// True when at least one entry in range actually has a note, so the toggle
+    /// isn't offered for a report where it would change nothing.
+    var hasNotes: Bool { entriesInRange().contains { !$0.note.isEmpty } }
 
     private(set) var isGenerating = false
     private(set) var fileURL: URL?
@@ -28,6 +41,10 @@ final class ExportViewModel {
     init(store: EntryStoring? = nil, calendar: Calendar = .current) {
         self.store = store ?? EntryStore()
         self.calendar = calendar
+        // Property observers don't fire in init, so reading the preference here
+        // doesn't bounce it straight back into UserDefaults.
+        let defaults = UserDefaults.standard
+        includesNotes = defaults.object(forKey: AppSettings.exportIncludesNotesKey) as? Bool ?? true
     }
 
     /// How many entries the report would contain, shown before generating.
@@ -43,7 +60,8 @@ final class ExportViewModel {
             fileURL = try PDFExporter.export(
                 days: days,
                 range: effectiveRange(dateRange, days: days),
-                title: String(localized: "Health log"))
+                title: String(localized: "Health log"),
+                includeNotes: includesNotes)
         } catch {
             errorMessage = error.localizedDescription
             fileURL = nil

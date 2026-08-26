@@ -92,7 +92,8 @@ extension IllnessTemplate {
     /// Every illness on offer, in the order the picker shows them. The generic set
     /// sits at the end, where "my condition isn't listed" belongs.
     static let all: [IllnessTemplate] = [
-        migraine, coldOrFlu, allergy, asthma, backPain, digestive, mood, general,
+        migraine, coldOrFlu, allergy, asthma, backPain, digestive, cancerTreatment,
+        mood, general,
     ]
 
     /// The illness-agnostic starter set — what the app used to create on first run.
@@ -118,7 +119,7 @@ extension IllnessTemplate {
         symbolName: "brain.head.profile",
         treatments: [
             treatment("Rescue medication", "pills.fill", .teal),
-            treatment("Preventive medication", "capsule.fill", .indigo),
+            treatment("Preventive medication", "pill.fill", .indigo),
             treatment("Cold pack", "drop.fill", .blue),
             treatment("Rest in a dark room", "moon.stars.fill", .purple),
         ],
@@ -138,7 +139,7 @@ extension IllnessTemplate {
         treatments: [
             treatment("Painkiller", "pills.fill", .teal),
             treatment("Decongestant", "drop.fill", .blue),
-            treatment("Throat lozenge", "capsule.fill", .green),
+            treatment("Throat lozenge", "pill.fill", .green),
             treatment("Fluids", "waterbottle.fill", .indigo),
             treatment("Rest", "moon.stars.fill", .purple),
         ],
@@ -193,7 +194,7 @@ extension IllnessTemplate {
         symbolName: "figure.walk",
         treatments: [
             treatment("Painkiller", "pills.fill", .teal),
-            treatment("Anti-inflammatory", "capsule.fill", .orange),
+            treatment("Anti-inflammatory", "pill.fill", .orange),
             treatment("Heat pack", "bandage.fill", .red),
             treatment("Stretching", "figure.walk", .green),
             treatment("Physiotherapy", "stethoscope", .indigo),
@@ -212,7 +213,7 @@ extension IllnessTemplate {
         symbolName: "fork.knife",
         treatments: [
             treatment("Antacid", "pills.fill", .teal),
-            treatment("Antispasmodic", "capsule.fill", .indigo),
+            treatment("Antispasmodic", "pill.fill", .indigo),
             treatment("Probiotic", "leaf.fill", .green),
             treatment("Fibre supplement", "fork.knife", .brown),
         ],
@@ -223,6 +224,31 @@ extension IllnessTemplate {
             symptom("Nausea", "drop.fill", .green),
             symptom("Diarrhoea", "exclamationmark.triangle.fill", .brown),
             symptom("Constipation", "hand.raised.fill", .gray),
+        ])
+
+    /// Named for the treatment rather than the diagnosis, because that's what
+    /// there is to log day to day: the sessions and the side effects between them,
+    /// which is exactly what an oncologist asks you to remember at the next
+    /// appointment.
+    static let cancerTreatment = IllnessTemplate(
+        id: "cancer-treatment",
+        name: String(localized: "Cancer treatment"),
+        symbolName: "cross.vial.fill",
+        treatments: [
+            treatment("Chemotherapy session", "syringe.fill", .indigo),
+            treatment("Radiotherapy session", "cross.case.fill", .blue),
+            treatment("Oral medication", "pill.fill", .orange),
+            treatment("Anti-nausea medication", "pills.fill", .green),
+            treatment("Painkiller", "pills.fill", .teal),
+        ],
+        symptoms: [
+            symptom("Fatigue", "zzz", .purple),
+            symptom("Nausea", "drop.fill", .green),
+            symptom("Pain", "bolt.fill", .red),
+            symptom("Loss of appetite", "mouth.fill", .brown),
+            symptom("Mouth sores", "flame.fill", .pink),
+            symptom("Numbness", "circle.dotted", .gray),
+            symptom("Fever", "thermometer.high", .orange),
         ])
 
     static let mood = IllnessTemplate(

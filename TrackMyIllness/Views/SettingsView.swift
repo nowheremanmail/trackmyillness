@@ -19,6 +19,7 @@ struct SettingsView: View {
     /// Shown straight after a reset, so "start over" lands on the template list
     /// rather than on an empty screen.
     @State private var showingIllnessPicker = false
+    @State private var showingFirstSteps = false
 
     private let entries: EntryStoring
 
@@ -86,6 +87,11 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    Button {
+                        showingFirstSteps = true
+                    } label: {
+                        Label("First steps", systemImage: "sparkles")
+                    }
                     NavigationLink {
                         AboutView()
                     } label: {
@@ -125,6 +131,9 @@ struct SettingsView: View {
                 Button("Cancel", role: .cancel) {}
             } message: {
                 Text("This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.")
+            }
+            .fullScreenCover(isPresented: $showingFirstSteps) {
+                FirstStepsView(finish: { showingFirstSteps = false }, catalog: catalog)
             }
             .sheet(isPresented: $showingIllnessPicker) {
                 NavigationStack {

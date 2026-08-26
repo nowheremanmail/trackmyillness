@@ -158,7 +158,7 @@ private struct SymbolGrid: View {
     private let columns = [GridItem(.adaptive(minimum: 44), spacing: 12)]
 
     private static let treatmentSymbols = [
-        "pills.fill", "capsule.fill", "syringe.fill", "cross.vial.fill", "bandage.fill",
+        "pills.fill", "pill.fill", "syringe.fill", "cross.vial.fill", "bandage.fill",
         "drop.fill", "eyedropper.halffull", "inhaler.fill", "cross.case.fill", "stethoscope",
         "sunrise.fill", "sun.max.fill", "moon.stars.fill", "fork.knife", "figure.walk",
         "heart.fill", "lungs.fill", "brain.head.profile", "waterbottle.fill", "leaf.fill",

@@ -18,8 +18,12 @@ enum PDFExporter {
 
     /// Writes the report to a temporary file and returns its URL.
     /// - Note: the caller keeps the URL alive for as long as the share sheet needs it.
-    static func export(days: [LogDay], range: ClosedRange<Date>, title: String) throws -> URL {
-        let data = render(days: days, range: range, title: title)
+    /// - Parameter includeNotes: free-text notes can hold anything the user wrote,
+    ///   so whether they reach a report that gets handed to someone else is the
+    ///   user's call, not ours.
+    static func export(days: [LogDay], range: ClosedRange<Date>, title: String,
+                       includeNotes: Bool = true) throws -> URL {
+        let data = render(days: days, range: range, title: title, includeNotes: includeNotes)
         let url = FileManager.default.temporaryDirectory
             .appendingPathComponent(fileName(for: range), conformingTo: .pdf)
         try data.write(to: url, options: .atomic)
@@ -32,7 +36,8 @@ enum PDFExporter {
         return "Symptrace \(from) – \(to)"
     }
 
-    static func render(days: [LogDay], range: ClosedRange<Date>, title: String) -> Data {
+    static func render(days: [LogDay], range: ClosedRange<Date>, title: String,
+                       includeNotes: Bool = true) -> Data {
         let renderer = UIGraphicsPDFRenderer(bounds: CGRect(origin: .zero, size: pageSize))
         return renderer.pdfData { context in
             let writer = PageWriter(context: context, pageSize: pageSize, margin: margin)
@@ -52,7 +57,7 @@ enum PDFExporter {
             for day in days {
                 writer.drawDayHeader(day.date)
                 for entry in day.entries.sorted(by: { $0.date < $1.date }) {
-                    writer.drawRow(entry)
+                    writer.drawRow(entry, includeNotes: includeNotes)
                 }
                 writer.space(6)
             }
@@ -155,9 +160,9 @@ private final class PageWriter {
              font: .systemFont(ofSize: 13, weight: .semibold), spacingAfter: 4)
     }
 
-    func drawRow(_ entry: LogEntry) {
+    func drawRow(_ entry: LogEntry, includeNotes: Bool) {
         let time = entry.date.formatted(date: .omitted, time: .shortened)
-        let detail = Self.detail(for: entry)
+        let detail = Self.detail(for: entry, includeNotes: includeNotes)
         let timeWidth: CGFloat = 56
         let dotWidth: CGFloat = 14
         let nameX = margin + timeWidth + dotWidth
@@ -184,11 +189,11 @@ private final class PageWriter {
     }
 
     /// The "kind · dose · severity · note" line under an entry's name.
-    private static func detail(for entry: LogEntry) -> String {
+    private static func detail(for entry: LogEntry, includeNotes: Bool) -> String {
         var parts = [entry.kind.exportTitle]
         if !entry.dose.isEmpty { parts.append(entry.dose) }
         if entry.hasSeverity { parts.append(String(localized: "Severity \(entry.severity)/5")) }
-        if !entry.note.isEmpty { parts.append(entry.note) }
+        if includeNotes, !entry.note.isEmpty { parts.append(entry.note) }
         return parts.joined(separator: " · ")
     }
 }

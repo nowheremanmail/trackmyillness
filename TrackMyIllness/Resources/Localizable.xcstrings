@@ -70,6 +70,17 @@
         }
       }
     },
+    "A private log of what you took and how you felt.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un registro privado de lo que tomaste y de cómo te sentiste."
+          }
+        }
+      }
+    },
     "AI": {
       "shouldTranslate": false
     },
@@ -190,6 +201,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antiinflamatorio"
+          }
+        }
+      }
+    },
+    "Anti-nausea medication": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación antiemética"
           }
         }
       }
@@ -359,6 +381,28 @@
         }
       }
     },
+    "Cancer treatment": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamiento oncológico"
+          }
+        }
+      }
+    },
+    "Chemotherapy session": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de quimioterapia"
+          }
+        }
+      }
+    },
     "Chest tightness": {
       "extractionState": "manual",
       "localizations": {
@@ -377,6 +421,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Escalofríos"
+          }
+        }
+      }
+    },
+    "Choose an illness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir una enfermedad"
+          }
+        }
+      }
+    },
+    "Choose what to track": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige qué registrar"
           }
         }
       }
@@ -432,6 +498,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tos"
+          }
+        }
+      }
+    },
+    "Couldn't reach the list. Check your connection and try again.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido acceder a la lista. Comprueba tu conexión e inténtalo de nuevo."
           }
         }
       }
@@ -623,6 +700,28 @@
         }
       }
     },
+    "Downloaded from the project wiki. Everything it creates is an ordinary treatment or symptom afterwards.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargada del wiki del proyecto. Todo lo que crea queda después como un tratamiento o síntoma normal."
+          }
+        }
+      }
+    },
+    "Downloading the list…": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargando la lista…"
+          }
+        }
+      }
+    },
     "Edit": {
       "extractionState": "manual",
       "localizations": {
@@ -788,6 +887,17 @@
         }
       }
     },
+    "Fetches an extra list published on the project wiki. It downloads only when you open it, and sends nothing about you or your log.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descarga una lista extra publicada en el wiki del proyecto. Sólo se descarga cuando la abres, y no envía nada sobre ti ni sobre tu registro."
+          }
+        }
+      }
+    },
     "Fever": {
       "extractionState": "manual",
       "localizations": {
@@ -806,6 +916,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Suplemento de fibra"
+          }
+        }
+      }
+    },
+    "First steps": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primeros pasos"
           }
         }
       }
@@ -920,6 +1041,17 @@
         }
       }
     },
+    "I'll add my own": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los añado yo"
+          }
+        }
+      }
+    },
     "Icon": {
       "extractionState": "manual",
       "localizations": {
@@ -949,6 +1081,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Irritabilidad"
+          }
+        }
+      }
+    },
+    "It stays on your device": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No sale de tu dispositivo"
           }
         }
       }
@@ -1015,6 +1158,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bloqueado"
+          }
+        }
+      }
+    },
+    "Look back": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mira atrás"
+          }
+        }
+      }
+    },
+    "Loss of appetite": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta de apetito"
           }
         }
       }
@@ -1096,6 +1261,17 @@
         }
       }
     },
+    "More illnesses": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más enfermedades"
+          }
+        }
+      }
+    },
     "Morning medication": {
       "extractionState": "manual",
       "localizations": {
@@ -1103,6 +1279,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Medicación de la mañana"
+          }
+        }
+      }
+    },
+    "Mouth sores": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llagas en la boca"
           }
         }
       }
@@ -1195,6 +1382,17 @@
         }
       }
     },
+    "No account, no tracking, nothing uploaded. You can lock the app with Face ID from Settings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin cuenta, sin seguimiento, nada se sube. Puedes bloquear la app con Face ID desde Configuración."
+          }
+        }
+      }
+    },
     "No entries in this period.": {
       "extractionState": "manual",
       "localizations": {
@@ -1206,6 +1404,17 @@
         }
       }
     },
+    "No extra illnesses are published right now.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora mismo no hay enfermedades extra publicadas."
+          }
+        }
+      }
+    },
     "Not available": {
       "extractionState": "manual",
       "localizations": {
@@ -1213,6 +1422,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "No disponible"
+          }
+        }
+      }
+    },
+    "Not now": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora no"
           }
         }
       }
@@ -1297,6 +1517,17 @@
         }
       }
     },
+    "Oral medication": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación oral"
+          }
+        }
+      }
+    },
     "Pain": {
       "extractionState": "manual",
       "localizations": {
@@ -1348,6 +1579,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fisioterapia"
+          }
+        }
+      }
+    },
+    "Pick an illness and the treatments and symptoms usually tracked for it are created for you. You can edit or remove any of them.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una enfermedad y se crean los tratamientos y síntomas que se suelen registrar. Puedes editarlos o borrarlos."
           }
         }
       }
@@ -1451,6 +1693,17 @@
         }
       }
     },
+    "Radiotherapy session": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de radioterapia"
+          }
+        }
+      }
+    },
     "Rate severity 1–5": {
       "extractionState": "manual",
       "localizations": {
@@ -1491,6 +1744,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Registrar"
+          }
+        }
+      }
+    },
+    "Report in two taps": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registra en dos toques"
           }
         }
       }
@@ -1806,6 +2070,17 @@
     "Symptrace": {
       "shouldTranslate": false
     },
+    "Tap what happened and save. The date starts at today and the time at now, with shortcuts for a while ago.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca lo que ha pasado y guarda. La fecha empieza en hoy y la hora en ahora, con atajos para hace un rato."
+          }
+        }
+      }
+    },
     "The app locks when it goes to the background and asks to unlock the next time you open it.": {
       "extractionState": "manual",
       "localizations": {
@@ -1828,6 +2103,17 @@
         }
       }
     },
+    "The published list couldn't be read.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido leer la lista publicada."
+          }
+        }
+      }
+    },
     "Therapy session": {
       "extractionState": "manual",
       "localizations": {
@@ -1846,6 +2132,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se borran todas las entradas y todos los tratamientos y síntomas que hayas configurado, y podrás elegir una enfermedad otra vez. Los ajustes de privacidad se mantienen. No se puede deshacer."
+          }
+        }
+      }
+    },
+    "This list needs a newer version of the app.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta lista necesita una versión más nueva de la app."
           }
         }
       }
@@ -1934,6 +2231,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dificultad para concentrarse"
+          }
+        }
+      }
+    },
+    "Try again": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reintentar"
           }
         }
       }
@@ -2099,6 +2407,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tus datos no salen de este dispositivo. Almacenamiento: %@"
+          }
+        }
+      }
+    },
+    "Your entries are grouped by day, with a chart of how the days compare. Any period exports as a PDF for an appointment.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tus registros se agrupan por día, con un gráfico para comparar. Cualquier periodo se exporta a PDF para una cita."
           }
         }
       }

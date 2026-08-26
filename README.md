@@ -12,9 +12,12 @@ what symptoms you felt, when. Everything stays on the device.
   overview chart of entries per day and average symptom severity.
 - **Settings** — configure the treatments and symptoms you can report (name, icon,
   colour, default dose, severity rating), the Face ID lock, PDF export, and About.
-  **Add from an illness** fills the catalog in one go from a predefined list
+  **Add from an illness** fills the catalog in one go from a built-in list
   (migraine, cold or flu, seasonal allergy, asthma, back pain, digestive
-  discomfort, low mood or anxiety, or a generic set).
+  discomfort, cancer treatment, low mood or anxiety, or a generic set), and
+  **More illnesses** downloads an extra list published on the project wiki.
+  A first run opens on **First steps**, which walks through the app and hands
+  straight over to the illness picker.
 
 ## Details
 
@@ -27,6 +30,12 @@ what symptoms you felt, when. Everything stays on the device.
 - The illness templates are **tracking labels, not medical advice**: deliberately
   generic and with no default doses. What you actually take is between you and
   your doctor; every item is editable once created.
+- The extra illness list is the app's only network request, made only when that
+  screen is opened. Its JSON carries each name in every language the publisher
+  provided, and the app resolves the closest match to the reader (exact tag, base
+  language, English, then anything) — see `Illness-list` on the wiki. Downloaded
+  content is treated as untrusted: unknown symbols and colours fall back, names
+  are capped, half-formed illnesses are dropped, and counts are bounded.
 - The Report tab orders its chips most-reported first, re-ranked when the tab
   appears so the grid never shifts under your finger mid-entry. Items used equally
   often keep the order set in Settings.

@@ -9,7 +9,9 @@ import Foundation
 import Testing
 @testable import TrackMyIllness
 
-@Suite("ExportViewModel")
+// Serialized because the notes preference lives in UserDefaults, which is
+// process-wide state these tests both read and write.
+@Suite("ExportViewModel", .serialized)
 @MainActor
 struct ExportViewModelTests {
     private let store: EntryStore
@@ -17,6 +19,7 @@ struct ExportViewModelTests {
     private let calendar = Fixture.calendar
 
     init() {
+        UserDefaults.standard.removeObject(forKey: AppSettings.exportIncludesNotesKey)
         store = EntryStore(container: Fixture.container())
         model = ExportViewModel(store: store, calendar: Fixture.calendar)
     }
@@ -131,6 +134,70 @@ struct ExportViewModelTests {
         let url = try #require(model.fileURL)
         let expected = HistoryRange.month.dateRange(now: .now, calendar: calendar)
         #expect(url.lastPathComponent == PDFExporter.fileName(for: expected) + ".pdf")
+    }
+
+    // MARK: Notes
+
+    @Test("Notes are included by default")
+    func notesIncludedByDefault() {
+        #expect(model.includesNotes)
+    }
+
+    @Test("The toggle is only worth offering when there's a note in range")
+    func hasNotes() {
+        #expect(model.hasNotes == false)
+        store.add(Fixture.entry(date: Fixture.daysAgo(1)))
+        #expect(model.hasNotes == false)
+        store.add(Fixture.entry(date: Fixture.daysAgo(1), note: "Worse after walking"))
+        #expect(model.hasNotes)
+    }
+
+    @Test("A note outside the chosen period doesn't count")
+    func hasNotesFollowsRange() {
+        store.add(Fixture.entry(date: Fixture.daysAgo(45), note: "Long ago"))
+        model.range = .week
+        #expect(model.hasNotes == false)
+        model.range = .quarter
+        #expect(model.hasNotes)
+    }
+
+    @Test("Turning notes off throws away the PDF that had them")
+    func togglingNotesInvalidates() {
+        seed()
+        model.generate()
+        #expect(model.fileURL != nil)
+        removeGeneratedFile()
+        model.includesNotes = false
+        #expect(model.fileURL == nil)
+    }
+
+    @Test("Setting the toggle to what it already was keeps the file")
+    func settingTheSameNotesFlagKeepsTheFile() {
+        seed()
+        model.generate()
+        let url = model.fileURL
+        model.includesNotes = true
+        #expect(model.fileURL == url)
+        removeGeneratedFile()
+    }
+
+    @Test("The choice is remembered for the next export")
+    func notesChoiceIsRemembered() {
+        model.includesNotes = false
+        let fresh = ExportViewModel(store: store, calendar: calendar)
+        #expect(fresh.includesNotes == false)
+    }
+
+    @Test("A report without notes is still a valid PDF")
+    func generatesWithoutNotes() throws {
+        store.add(Fixture.entry(kind: .symptom, name: "Pain", date: Fixture.daysAgo(1),
+                                severity: 3, note: "Private"))
+        model.includesNotes = false
+        model.generate()
+        defer { removeGeneratedFile() }
+        let url = try #require(model.fileURL)
+        #expect(model.errorMessage == nil)
+        #expect(try Data(contentsOf: url).starts(with: Array("%PDF".utf8)))
     }
 
     @Test("\"All\" names the file from the oldest entry, not from a century ago")

@@ -29,6 +29,16 @@ struct IllnessPickerView: View {
             } footer: {
                 Text("Everything an illness creates is an ordinary treatment or symptom afterwards — rename it, recolour it or remove it as you like.")
             }
+
+            Section {
+                NavigationLink {
+                    RemoteIllnessListView(model: model)
+                } label: {
+                    Label("More illnesses", systemImage: "arrow.down.circle")
+                }
+            } footer: {
+                Text("Fetches an extra list published on the project wiki. It downloads only when you open it, and sends nothing about you or your log.")
+            }
         }
         .navigationTitle(Text("Add from an illness"))
         .navigationBarTitleDisplayMode(.inline)
@@ -72,8 +82,9 @@ struct IllnessPickerView: View {
     }
 }
 
-/// What one illness would create, and the button that creates it.
-private struct IllnessDetailView: View {
+/// What one illness would create, and the button that creates it. Shared by the
+/// built-in list and the downloaded one — a template is a template.
+struct IllnessDetailView: View {
     let illness: IllnessTemplate
     @Bindable var model: CatalogViewModel
 

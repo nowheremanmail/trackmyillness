@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		7A0000052F00000100000001 /* TrackMyIllness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyIllness.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0000112F00000100000001 /* TrackMyIllnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyIllnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
 /* Begin PBXContainerItemProxy section */
 		7A00001B2F00000100000001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -20,6 +15,11 @@
 			remoteInfo = TrackMyIllness;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A0000052F00000100000001 /* TrackMyIllness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyIllness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000112F00000100000001 /* TrackMyIllnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyIllnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		7A0000072F00000100000001 /* Exceptions for "TrackMyIllness" folder in "TrackMyIllness" target */ = {
@@ -171,14 +171,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXTargetDependency section */
-		7A00001A2F00000100000001 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A0000042F00000100000001 /* TrackMyIllness */;
-			targetProxy = 7A00001B2F00000100000001 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXResourcesBuildPhase section */
 		7A00000A2F00000100000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -212,6 +204,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A00001A2F00000100000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0000042F00000100000001 /* TrackMyIllness */;
+			targetProxy = 7A00001B2F00000100000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7A00000C2F00000100000001 /* Debug */ = {

@@ -33,8 +33,15 @@ struct ExportView: View {
                             Text(kind.pluralTitle).tag(EntryKind?.some(kind))
                         }
                     }
+                    if model.hasNotes {
+                        Toggle("Include notes", isOn: $model.includesNotes)
+                    }
                 } footer: {
-                    Text("Entries to include: \(model.entryCount)")
+                    if model.hasNotes, !model.includesNotes {
+                        Text("Entries to include: \(model.entryCount). Your notes are left out of the report.")
+                    } else {
+                        Text("Entries to include: \(model.entryCount)")
+                    }
                 }
 
                 Section {
