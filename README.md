@@ -100,9 +100,10 @@ touch the real database and never prompt for Face ID.
 
 `AppStore/` holds everything the repository can prepare for a submission:
 store metadata for all seven languages (length-checked against Apple's limits),
-screenshots at the two required sizes, the privacy policy to host, the App Privacy
-questionnaire answers, the notes for App Review, and a checklist of the account
-work that only the developer can do.
+screenshots at the two required sizes, the App Privacy questionnaire answers, the
+notes for App Review, and a checklist of the account work that only the developer
+can do. The privacy policy and support pages live on the project wiki, which is
+their only copy.
 
 ```bash
 Tools/screenshots.sh        # regenerate the store screenshots

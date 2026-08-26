@@ -30,6 +30,13 @@ cookies disabled.
 `TrackMyIllness/Info.plist`, so App Store Connect will not ask each submission. The
 app uses only HTTPS through the OS, which is exempt.
 
+## Privacy policy URL
+
+https://github.com/nowheremanmail/trackmyillness/wiki/Privacy-Policy — published on
+the project wiki, which is the only copy. It already states that the app collects
+nothing, describes the single network request, and says the biometric lock never
+exposes biometric data to the app, so it lines up with the answers above.
+
 ## Content rights
 
 The app contains no third-party content. The illness templates are generic tracking

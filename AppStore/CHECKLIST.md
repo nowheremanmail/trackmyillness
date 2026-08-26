@@ -23,19 +23,26 @@ before or after shipping, without consequences.
 - That Apple ID signed in to Xcode → Settings → Accounts, so automatic signing can
   fetch the distribution certificate and provisioning profile.
 
-## 2. Host the privacy policy
+## 2. The URLs — already published, nothing to host
 
 App Store Connect will not accept the submission without a reachable privacy
-policy URL, and the app has no in-app link to one.
+policy URL. The project wiki already carries one, along with a support page, so
+all three URLs are live and are already written into
+`AppStore/metadata/*/`:
 
-`AppStore/privacy-policy.html` is ready to publish. The simplest route, since the
-repository is already public: enable GitHub Pages on `nowheremanmail/trackmyillness`
-and copy the file to `docs/privacy.html`, which serves it at
+| Field | URL |
+| --- | --- |
+| Privacy Policy URL | https://github.com/nowheremanmail/trackmyillness/wiki/Privacy-Policy |
+| Support URL | https://github.com/nowheremanmail/trackmyillness/wiki/Support |
+| Marketing URL (optional) | https://github.com/nowheremanmail/trackmyillness/wiki |
 
-    https://nowheremanmail.github.io/trackmyillness/privacy.html
+The wiki is the single source for these pages — do not keep a second copy of the
+privacy policy in this repository, because the two would drift and the one App
+Review reads is the published one.
 
-That is the URL already written into `AppStore/metadata/*/privacy_url.txt`. If you
-host it elsewhere, update those seven files to match.
+Before submitting, check that the privacy policy still matches what the app does.
+Closing an illness added a third way for data to be deleted, and the wiki's
+"Deleting Your Information" and Support FAQ predate it.
 
 ## 3. Create the App Store Connect record
 
