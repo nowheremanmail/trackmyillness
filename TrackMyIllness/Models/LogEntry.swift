@@ -25,8 +25,14 @@ struct LogEntry: Identifiable, Hashable, Sendable {
     /// Symptoms only: 1–5, or 0 when not recorded.
     var severity: Int = 0
     var note: String = ""
+    /// The closed illness this entry belongs to, or empty while it's still live.
+    /// Archived entries stay in the same table — they keep every field, and the
+    /// live queries simply filter them out.
+    var archiveID: String = ""
 
     var color: ItemColor { ItemColor.named(colorName) }
+    /// False once the entry's illness has been closed.
+    var isLive: Bool { archiveID.isEmpty }
     var hasSeverity: Bool { severity > 0 }
 }
 
@@ -42,6 +48,9 @@ final class LogEntryRecord {
     var dose: String = ""
     var severity: Int = 0
     var note: String = ""
+    /// Defaulted so an existing store migrates without a mapping: every row that
+    /// predates closing an illness comes back live, which is what it was.
+    var archiveID: String = ""
 
     init(id: String = UUID().uuidString,
          kindRaw: String = EntryKind.treatment.rawValue,
@@ -52,7 +61,8 @@ final class LogEntryRecord {
          date: Date = .now,
          dose: String = "",
          severity: Int = 0,
-         note: String = "") {
+         note: String = "",
+         archiveID: String = "") {
         self.id = id
         self.kindRaw = kindRaw
         self.itemID = itemID
@@ -63,13 +73,14 @@ final class LogEntryRecord {
         self.dose = dose
         self.severity = severity
         self.note = note
+        self.archiveID = archiveID
     }
 
     convenience init(_ entry: LogEntry) {
         self.init(id: entry.id, kindRaw: entry.kind.rawValue, itemID: entry.itemID,
                   itemName: entry.itemName, symbolName: entry.symbolName,
                   colorName: entry.colorName, date: entry.date, dose: entry.dose,
-                  severity: entry.severity, note: entry.note)
+                  severity: entry.severity, note: entry.note, archiveID: entry.archiveID)
     }
 
     func apply(_ entry: LogEntry) {
@@ -82,12 +93,13 @@ final class LogEntryRecord {
         dose = entry.dose
         severity = entry.severity
         note = entry.note
+        archiveID = entry.archiveID
     }
 
     var value: LogEntry {
         LogEntry(id: id, kind: EntryKind(rawValue: kindRaw) ?? .treatment, itemID: itemID,
                  itemName: itemName, symbolName: symbolName, colorName: colorName,
-                 date: date, dose: dose, severity: severity, note: note)
+                 date: date, dose: dose, severity: severity, note: note, archiveID: archiveID)
     }
 }
 

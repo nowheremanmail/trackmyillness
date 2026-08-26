@@ -10,6 +10,9 @@ import SwiftData
 
 @MainActor
 protocol EntryStoring {
+    /// Every method here works on the *live* log only: entries belonging to a
+    /// closed illness are archived, and reached through `ClosedIllnessStoring`.
+    ///
     /// Entries whose date falls in `range`, newest first.
     func entries(in range: ClosedRange<Date>) -> [LogEntry]
     /// The most recent entries, newest first.
@@ -35,13 +38,14 @@ final class EntryStore: EntryStoring {
     func entries(in range: ClosedRange<Date>) -> [LogEntry] {
         let start = range.lowerBound, end = range.upperBound
         let descriptor = FetchDescriptor<LogEntryRecord>(
-            predicate: #Predicate { $0.date >= start && $0.date <= end },
+            predicate: #Predicate { $0.date >= start && $0.date <= end && $0.archiveID == "" },
             sortBy: [SortDescriptor(\.date, order: .reverse)])
         return ((try? context.fetch(descriptor)) ?? []).map(\.value)
     }
 
     func recent(limit: Int) -> [LogEntry] {
         var descriptor = FetchDescriptor<LogEntryRecord>(
+            predicate: #Predicate { $0.archiveID == "" },
             sortBy: [SortDescriptor(\.date, order: .reverse)])
         descriptor.fetchLimit = limit
         return ((try? context.fetch(descriptor)) ?? []).map(\.value)
@@ -50,7 +54,8 @@ final class EntryStore: EntryStoring {
     /// Counts every entry ever logged: the Report tab puts the items you reach for
     /// most at the top, and "most" only settles down over the whole history.
     func usageCounts() -> [String: Int] {
-        let records = (try? context.fetch(FetchDescriptor<LogEntryRecord>())) ?? []
+        let descriptor = FetchDescriptor<LogEntryRecord>(predicate: #Predicate { $0.archiveID == "" })
+        let records = (try? context.fetch(descriptor)) ?? []
         return records.reduce(into: [:]) { counts, record in
             counts[record.itemID, default: 0] += 1
         }
@@ -73,8 +78,10 @@ final class EntryStore: EntryStoring {
         try? context.save()
     }
 
+    /// Clears the live log. A closed illness keeps its archived entries — losing
+    /// them here would quietly destroy the thing "close" was meant to preserve.
     func deleteAll() {
-        try? context.delete(model: LogEntryRecord.self)
+        try? context.delete(model: LogEntryRecord.self, where: #Predicate { $0.archiveID == "" })
         try? context.save()
     }
 

@@ -31,6 +31,43 @@ enum PreviewData {
 
     static func catalogStore() -> CatalogStore { CatalogStore(container: container) }
     static func entryStore() -> EntryStore { EntryStore(container: container) }
+    static func closedIllnessStore() -> ClosedIllnessStore { ClosedIllnessStore(container: container) }
+
+    /// A list model holding two already-closed illnesses, built in its own
+    /// container so closing them doesn't empty the shared live log every other
+    /// preview draws from.
+    static func closedIllnessModel() -> ClosedIllnessViewModel {
+        let model = ClosedIllnessViewModel(store: ClosedIllnessStore(container: closedContainer))
+        model.refresh()
+        return model
+    }
+
+    /// A container whose sample log has already been archived into two illnesses.
+    private static let closedContainer: ModelContainer = {
+        let container = AppDatabase.previewContainer()
+        let context = ModelContext(container)
+        let catalog = IllnessTemplate.general.catalogItems
+        let entries = sampleEntries(catalog: catalog)
+        // Split the fortnight in two so the list has more than one row to show.
+        let midpoint = entries.count / 2
+        for (name, slice) in [("Winter flu", entries.prefix(midpoint)),
+                              ("Spring flare-up", entries.suffix(from: midpoint))] {
+            let dates = slice.map(\.date)
+            let illness = ClosedIllness(
+                name: name, closedAt: dates.max() ?? .now,
+                startedAt: dates.min() ?? .now, endedAt: dates.max() ?? .now,
+                treatmentCount: slice.count { $0.kind == .treatment },
+                symptomCount: slice.count { $0.kind == .symptom })
+            context.insert(ClosedIllnessRecord(illness))
+            for entry in slice {
+                var archived = entry
+                archived.archiveID = illness.id
+                context.insert(LogEntryRecord(archived))
+            }
+        }
+        try? context.save()
+        return container
+    }()
 
     static var sampleItem: CatalogItem {
         CatalogItem(kind: .treatment, name: "Painkiller", symbolName: "pills.fill",

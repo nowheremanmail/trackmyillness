@@ -14,7 +14,9 @@ enum AppDatabase {
     /// Human-readable status of the store, shown in Settings for diagnostics.
     nonisolated(unsafe) static var status = "initializing…"
 
-    nonisolated static let schema = Schema([CatalogItemRecord.self, LogEntryRecord.self])
+    nonisolated static let schema = Schema([
+        CatalogItemRecord.self, LogEntryRecord.self, ClosedIllnessRecord.self,
+    ])
 
     nonisolated static let container: ModelContainer = {
         let local = ModelConfiguration(schema: schema)

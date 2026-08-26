@@ -20,15 +20,19 @@ struct SettingsView: View {
     /// rather than on an empty screen.
     @State private var showingIllnessPicker = false
     @State private var showingFirstSteps = false
+    @State private var showingCloseIllness = false
+    @State private var closed: ClosedIllnessViewModel
 
     private let entries: EntryStoring
 
     init(lock: AppLockViewModel? = nil,
          catalog: CatalogViewModel? = nil,
-         entries: EntryStoring? = nil) {
+         entries: EntryStoring? = nil,
+         closed: ClosedIllnessViewModel? = nil) {
         self.lock = lock ?? AppLockViewModel()
         self.entries = entries ?? EntryStore()
         _catalog = State(initialValue: catalog ?? CatalogViewModel())
+        _closed = State(initialValue: closed ?? ClosedIllnessViewModel())
     }
 
     var body: some View {
@@ -58,6 +62,27 @@ struct SettingsView: View {
                     if catalog.isEmpty {
                         Text("Nothing configured yet. Pick an illness to get the usual treatments and symptoms in one go.")
                     }
+                }
+
+                Section {
+                    Button {
+                        showingCloseIllness = true
+                    } label: {
+                        Label("Close this illness", systemImage: "archivebox")
+                    }
+                    NavigationLink {
+                        ClosedIllnessListView(model: closed)
+                    } label: {
+                        LabeledContent {
+                            Text("\(closed.count)")
+                        } label: {
+                            Label("Closed illnesses", systemImage: "tray.full")
+                        }
+                    }
+                } header: {
+                    Text("Illness")
+                } footer: {
+                    Text("Closing an illness files the current log away — you can still read and export it — and starts the Report and History tabs clean.")
                 }
 
                 Section {
@@ -118,19 +143,27 @@ struct SettingsView: View {
             .sheet(isPresented: $showingExport) {
                 ExportView()
             }
+            .sheet(isPresented: $showingCloseIllness) {
+                CloseIllnessView { _ in
+                    // The catalog may have been cleared with it, and the archive
+                    // has one more illness in it.
+                    catalog.refresh()
+                    closed.refresh()
+                }
+            }
             .confirmationDialog("Delete every entry?", isPresented: $confirmingDeleteAll,
                                 titleVisibility: .visible) {
                 Button("Delete everything", role: .destructive) { entries.deleteAll() }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("Your configured treatments and symptoms are kept. This can't be undone.")
+                Text("Your configured treatments and symptoms are kept, and so is anything you've already closed. This can't be undone.")
             }
             .confirmationDialog("Start over?", isPresented: $confirmingReset,
                                 titleVisibility: .visible) {
                 Button("Delete everything and start over", role: .destructive) { reset() }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.")
+                Text("This deletes every entry, every closed illness, and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.")
             }
             .fullScreenCover(isPresented: $showingFirstSteps) {
                 FirstStepsView(finish: { showingFirstSteps = false }, catalog: catalog)
@@ -146,7 +179,13 @@ struct SettingsView: View {
                 }
             }
         }
-        .onAppear { catalog.refresh() }
+        .onAppear {
+            catalog.refresh()
+            closed.refresh()
+            #if DEBUG
+            if ScreenshotMode.route == .close { showingCloseIllness = true }
+            #endif
+        }
     }
 
     /// Back to a fresh install: no entries, no catalog, and the template list open.
@@ -154,6 +193,9 @@ struct SettingsView: View {
     /// app would be the opposite of what that setting is for.
     private func reset() {
         entries.deleteAll()
+        // The archive too: "start over" that quietly kept old illnesses around
+        // wouldn't be starting over.
+        closed.reset()
         catalog.reset()
         showingIllnessPicker = true
     }
@@ -162,5 +204,6 @@ struct SettingsView: View {
 #Preview {
     SettingsView(lock: AppLockViewModel(authenticator: StubBiometricAuthenticator()),
                  catalog: CatalogViewModel(store: PreviewData.catalogStore()),
-                 entries: PreviewData.entryStore())
+                 entries: PreviewData.entryStore(),
+                 closed: PreviewData.closedIllnessModel())
 }

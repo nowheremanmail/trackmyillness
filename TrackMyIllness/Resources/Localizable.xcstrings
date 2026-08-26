@@ -7,12 +7,6 @@
     "1 h ago": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hace 1 h"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -23,6 +17,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vor 1 Std."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hace 1 h"
           }
         },
         "fr": {
@@ -48,12 +48,6 @@
     "2 h ago": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hace 2 h"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -64,6 +58,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vor 2 Std."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hace 2 h"
           }
         },
         "fr": {
@@ -89,12 +89,6 @@
     "30 days": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "30 días"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -105,6 +99,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "30 Tage"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "30 días"
           }
         },
         "fr": {
@@ -130,12 +130,6 @@
     "30 min ago": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hace 30 min"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -146,6 +140,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vor 30 Min."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "hace 30 min"
           }
         },
         "fr": {
@@ -171,12 +171,6 @@
     "7 days": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "7 días"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -187,6 +181,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "7 Tage"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7 días"
           }
         },
         "fr": {
@@ -212,12 +212,6 @@
     "90 days": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "90 días"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -228,6 +222,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "90 Tage"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90 días"
           }
         },
         "fr": {
@@ -253,12 +253,6 @@
     "A private log of what you took and how you felt.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un registro privado de lo que tomaste y de cómo te sentiste."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -269,6 +263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ein privates Protokoll dessen, was du genommen hast und wie es dir ging."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un registro privado de lo que tomaste y de cómo te sentiste."
           }
         },
         "fr": {
@@ -297,12 +297,6 @@
     "Abdominal pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor abdominal"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -313,6 +307,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bauchschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor abdominal"
           }
         },
         "fr": {
@@ -338,12 +338,6 @@
     "About": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acerca de"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -354,6 +348,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Über"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de"
           }
         },
         "fr": {
@@ -379,12 +379,6 @@
     "Add": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añadir"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -395,6 +389,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir"
           }
         },
         "fr": {
@@ -420,12 +420,6 @@
     "Add from an illness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añadir desde una enfermedad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -436,6 +430,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aus einer Krankheit hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir desde una enfermedad"
           }
         },
         "fr": {
@@ -461,12 +461,6 @@
     "Add the ones you want to report.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añade los que quieras registrar."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -477,6 +471,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Füge hinzu, was du erfassen willst."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade los que quieras registrar."
           }
         },
         "fr": {
@@ -502,12 +502,6 @@
     "Add to my catalog": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añadir a mi lista"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -518,6 +512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zu meiner Liste hinzufügen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir a mi lista"
           }
         },
         "fr": {
@@ -543,12 +543,6 @@
     "Adds a 1–5 rating to the entry form for this symptom.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añade una valoración de 1 a 5 al formulario para este síntoma."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -559,6 +553,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fügt diesem Symptom eine Bewertung von 1–5 im Formular hinzu."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una valoración de 1 a 5 al formulario para este síntoma."
           }
         },
         "fr": {
@@ -584,12 +584,6 @@
     "All": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -600,6 +594,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo"
           }
         },
         "fr": {
@@ -625,12 +625,6 @@
     "Already added": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ya añadido"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -641,6 +635,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schon hinzugefügt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya añadido"
           }
         },
         "fr": {
@@ -666,12 +666,6 @@
     "Antacid": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antiácido"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -682,6 +676,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antazidum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiácido"
           }
         },
         "fr": {
@@ -707,12 +707,6 @@
     "Anti-inflammatory": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antiinflamatorio"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -723,6 +717,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entzündungshemmer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiinflamatorio"
           }
         },
         "fr": {
@@ -748,12 +748,6 @@
     "Anti-nausea medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación antiemética"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -764,6 +758,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mittel gegen Übelkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación antiemética"
           }
         },
         "fr": {
@@ -789,12 +789,6 @@
     "Antihistamine": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antihistamínico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -805,6 +799,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Antihistaminikum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antihistamínico"
           }
         },
         "fr": {
@@ -830,12 +830,6 @@
     "Antispasmodic": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Antiespasmódico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -846,6 +840,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spasmolytikum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiespasmódico"
           }
         },
         "fr": {
@@ -871,12 +871,6 @@
     "Anxiety": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ansiedad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -887,6 +881,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Angst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ansiedad"
           }
         },
         "fr": {
@@ -912,12 +912,6 @@
     "Asthma": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asma"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -928,6 +922,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Asthma"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asma"
           }
         },
         "fr": {
@@ -953,12 +953,6 @@
     "Aura": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aura"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -966,6 +960,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aura"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Aura"
@@ -994,12 +994,6 @@
     "Authentication failed.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La autenticación ha fallado."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1010,6 +1004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Authentifizierung fehlgeschlagen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La autenticación ha fallado."
           }
         },
         "fr": {
@@ -1035,12 +1035,6 @@
     "Average symptom severity": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intensidad media de los síntomas"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1051,6 +1045,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Durchschnittlicher Schweregrad"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensidad media de los síntomas"
           }
         },
         "fr": {
@@ -1076,12 +1076,6 @@
     "Back pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor de espalda"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1092,6 +1086,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rückenschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de espalda"
           }
         },
         "fr": {
@@ -1117,12 +1117,6 @@
     "Bad": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fuerte"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1133,6 +1127,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stark"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuerte"
           }
         },
         "fr": {
@@ -1158,12 +1158,6 @@
     "Barely noticeable": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apenas perceptible"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1174,6 +1168,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaum spürbar"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apenas perceptible"
           }
         },
         "fr": {
@@ -1199,12 +1199,6 @@
     "Bloating": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hinchazón"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1215,6 +1209,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blähungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinchazón"
           }
         },
         "fr": {
@@ -1240,12 +1240,6 @@
     "Blocked nose": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nariz taponada"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1256,6 +1250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verstopfte Nase"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nariz taponada"
           }
         },
         "fr": {
@@ -1281,12 +1281,6 @@
     "Breathing exercise": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ejercicio de respiración"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1297,6 +1291,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Atemübung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio de respiración"
           }
         },
         "fr": {
@@ -1322,12 +1322,6 @@
     "Built by": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desarrollado por"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1338,6 +1332,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entwickelt von"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desarrollado por"
           }
         },
         "fr": {
@@ -1363,12 +1363,6 @@
     "Cancel": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1379,6 +1373,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abbrechen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
           }
         },
         "fr": {
@@ -1404,12 +1404,6 @@
     "Cancer treatment": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tratamiento oncológico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1420,6 +1414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Krebsbehandlung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamiento oncológico"
           }
         },
         "fr": {
@@ -1445,12 +1445,6 @@
     "Chemotherapy session": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesión de quimioterapia"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1461,6 +1455,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chemotherapie-Sitzung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de quimioterapia"
           }
         },
         "fr": {
@@ -1486,12 +1486,6 @@
     "Chest tightness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opresión en el pecho"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1502,6 +1496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Engegefühl in der Brust"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opresión en el pecho"
           }
         },
         "fr": {
@@ -1527,12 +1527,6 @@
     "Chills": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escalofríos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1543,6 +1537,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schüttelfrost"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escalofríos"
           }
         },
         "fr": {
@@ -1568,12 +1568,6 @@
     "Choose an illness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elegir una enfermedad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1584,6 +1578,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Krankheit wählen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir una enfermedad"
           }
         },
         "fr": {
@@ -1609,12 +1609,6 @@
     "Choose what to track": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige qué registrar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1625,6 +1619,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wähle, was du erfassen willst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige qué registrar"
           }
         },
         "fr": {
@@ -1647,15 +1647,296 @@
         }
       }
     },
-    "Cold or flu": {
+    "Close and archive?": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vols tancar i arxivar?"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abschließen und archivieren?"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Resfriado o gripe"
+            "value": "¿Cerrar y archivar?"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clore et archiver ?"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudere e archiviare?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar e arquivar?"
+          }
+        }
+      }
+    },
+    "Close illness": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tanca la malaltia"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krankheit abschließen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar enfermedad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clore la maladie"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi la malattia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar doença"
+          }
+        }
+      }
+    },
+    "Close it": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tanca-la"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abschließen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrarla"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clore"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar"
+          }
+        }
+      }
+    },
+    "Close this illness": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tanca aquesta malaltia"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Krankheit abschließen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar esta enfermedad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clore cette maladie"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi questa malattia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechar esta doença"
+          }
+        }
+      }
+    },
+    "Closed": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tancada"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgeschlossen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clôturée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiusa"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fechada"
+          }
+        }
+      }
+    },
+    "Closed illnesses": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malalties tancades"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgeschlossene Krankheiten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enfermedades cerradas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maladies clôturées"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malattie chiuse"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doenças fechadas"
+          }
+        }
+      }
+    },
+    "Closing an illness files the current log away — you can still read and export it — and starts the Report and History tabs clean.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En tancar una malaltia, el registre actual s'arxiva —el podràs continuar llegint i exportant— i les pestanyes Registrar i Històric comencen buides."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beim Abschließen einer Krankheit wird das aktuelle Protokoll archiviert – du kannst es weiterhin lesen und exportieren – und die Tabs „Erfassen“ und „Verlauf“ starten leer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al cerrar una enfermedad, el registro actual se archiva —podrás seguir leyéndolo y exportándolo— y las pestañas Registrar e Histórico empiezan vacías."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clôturer une maladie archive le journal actuel — vous pourrez toujours le consulter et l'exporter — et les onglets Signaler et Historique repartent à vide."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudendo una malattia il registro attuale viene archiviato — potrai comunque leggerlo ed esportarlo — e le schede Registra e Cronologia ripartono vuote."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ao fechares uma doença, o registo atual é arquivado — podes continuar a lê-lo e a exportá-lo — e os separadores Registar e Histórico começam vazios."
+          }
+        }
+      }
+    },
+    "Cold or flu": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1666,6 +1947,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erkältung oder Grippe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resfriado o gripe"
           }
         },
         "fr": {
@@ -1691,12 +1978,6 @@
     "Cold pack": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compresa fría"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1707,6 +1988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kühlkompresse"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compresa fría"
           }
         },
         "fr": {
@@ -1732,12 +2019,6 @@
     "Colour": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Color"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1748,6 +2029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Farbe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
           }
         },
         "fr": {
@@ -1773,12 +2060,6 @@
     "Constipation": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Estreñimiento"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1789,6 +2070,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verstopfung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estreñimiento"
           }
         },
         "fr": {
@@ -1814,12 +2101,6 @@
     "Cough": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1830,6 +2111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Husten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tos"
           }
         },
         "fr": {
@@ -1855,12 +2142,6 @@
     "Couldn't reach the list. Check your connection and try again.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido acceder a la lista. Comprueba tu conexión e inténtalo de nuevo."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1871,6 +2152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die Liste ist nicht erreichbar. Prüfe deine Verbindung und versuch es erneut."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido acceder a la lista. Comprueba tu conexión e inténtalo de nuevo."
           }
         },
         "fr": {
@@ -1896,12 +2183,6 @@
     "Create PDF": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Crear PDF"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1912,6 +2193,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "PDF erstellen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crear PDF"
           }
         },
         "fr": {
@@ -1937,12 +2224,6 @@
     "Date": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fecha"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1953,6 +2234,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Datum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha"
           }
         },
         "fr": {
@@ -1978,12 +2265,6 @@
     "Day": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Día"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -1994,6 +2275,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tag"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Día"
           }
         },
         "fr": {
@@ -2016,15 +2303,50 @@
         }
       }
     },
-    "Decongestant": {
+    "Days": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dies"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tage"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Descongestivo"
+            "value": "Días"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jours"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giorni"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dias"
+          }
+        }
+      }
+    },
+    "Decongestant": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2035,6 +2357,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abschwellendes Mittel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descongestivo"
           }
         },
         "fr": {
@@ -2060,12 +2388,6 @@
     "Default dose": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dosis por defecto"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2076,6 +2398,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Standarddosis"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosis por defecto"
           }
         },
         "fr": {
@@ -2101,12 +2429,6 @@
     "Delete": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2117,6 +2439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Löschen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar"
           }
         },
         "fr": {
@@ -2142,12 +2470,6 @@
     "Delete %@?": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Eliminar %@?"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2158,6 +2480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ löschen?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar %@?"
           }
         },
         "fr": {
@@ -2183,12 +2511,6 @@
     "Delete all entries": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar todos los registros"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2199,6 +2521,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle Einträge löschen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar todos los registros"
           }
         },
         "fr": {
@@ -2224,12 +2552,6 @@
     "Delete every entry?": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Eliminar todos los registros?"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2240,6 +2562,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alle Einträge löschen?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar todos los registros?"
           }
         },
         "fr": {
@@ -2265,12 +2593,6 @@
     "Delete everything": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar todo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2281,6 +2603,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles löschen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar todo"
           }
         },
         "fr": {
@@ -2306,12 +2634,6 @@
     "Delete everything and start over": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Borrar todo y empezar de nuevo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2322,6 +2644,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles löschen und neu anfangen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todo y empezar de nuevo"
           }
         },
         "fr": {
@@ -2347,12 +2675,6 @@
     "Design by": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diseño de"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2363,6 +2685,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Design von"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diseño de"
           }
         },
         "fr": {
@@ -2388,12 +2716,6 @@
     "Details": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Detalles"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2404,6 +2726,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Details"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalles"
           }
         },
         "fr": {
@@ -2429,12 +2757,6 @@
     "Diarrhoea": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Diarrea"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2445,6 +2767,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Durchfall"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diarrea"
           }
         },
         "fr": {
@@ -2470,12 +2798,6 @@
     "Digestive discomfort": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Molestias digestivas"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2486,6 +2808,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verdauungsbeschwerden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molestias digestivas"
           }
         },
         "fr": {
@@ -2511,12 +2839,6 @@
     "Done": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hecho"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2527,6 +2849,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fertig"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hecho"
           }
         },
         "fr": {
@@ -2552,12 +2880,6 @@
     "Dose": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dosis"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2565,6 +2887,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dosis"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Dosis"
@@ -2593,12 +2921,6 @@
     "Downloaded from the project wiki. Everything it creates is an ordinary treatment or symptom afterwards.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descargada del wiki del proyecto. Todo lo que crea queda después como un tratamiento o síntoma normal."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2609,6 +2931,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aus dem Projekt-Wiki geladen. Alles, was sie anlegt, ist danach eine normale Behandlung oder ein normales Symptom."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargada del wiki del proyecto. Todo lo que crea queda después como un tratamiento o síntoma normal."
           }
         },
         "fr": {
@@ -2634,12 +2962,6 @@
     "Downloading the list…": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descargando la lista…"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2650,6 +2972,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Liste wird geladen …"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descargando la lista…"
           }
         },
         "fr": {
@@ -2675,12 +3003,6 @@
     "Edit": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Editar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2691,6 +3013,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bearbeiten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Editar"
           }
         },
         "fr": {
@@ -2716,12 +3044,6 @@
     "Entries": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registros"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2732,6 +3054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einträge"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros"
           }
         },
         "fr": {
@@ -2757,12 +3085,6 @@
     "Entries already reported keep their name and are not removed.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Los registros ya guardados conservan su nombre y no se eliminan."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2773,6 +3095,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bereits erfasste Einträge behalten ihren Namen und bleiben erhalten."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los registros ya guardados conservan su nombre y no se eliminan."
           }
         },
         "fr": {
@@ -2795,15 +3123,91 @@
         }
       }
     },
-    "Entries per day": {
+    "Entries moving to Closed illnesses: %lld. This can't be undone.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registres que passen a Malalties tancades: %lld. Això no es pot desfer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge, die zu „Abgeschlossene Krankheiten“ wandern: %lld. Das lässt sich nicht rückgängig machen."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Registros por día"
+            "value": "Registros que pasan a Enfermedades cerradas: %lld. Esto no se puede deshacer."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrées déplacées vers Maladies clôturées : %lld. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voci che passano a Malattie chiuse: %lld. L'operazione non può essere annullata."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registos que passam para Doenças fechadas: %lld. Não é possível anular."
+          }
+        }
+      }
+    },
+    "Entries moving to Closed illnesses: %lld. Your configured treatments and symptoms are deleted too. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registres que passen a Malalties tancades: %lld. També s'eliminen els tractaments i símptomes que tens configurats. Això no es pot desfer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge, die zu „Abgeschlossene Krankheiten“ wandern: %lld. Deine eingerichteten Behandlungen und Symptome werden ebenfalls gelöscht. Das lässt sich nicht rückgängig machen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros que pasan a Enfermedades cerradas: %lld. También se eliminan los tratamientos y síntomas que tienes configurados. Esto no se puede deshacer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrées déplacées vers Maladies clôturées : %lld. Vos traitements et symptômes configurés sont également supprimés. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voci che passano a Malattie chiuse: %lld. Vengono eliminati anche i trattamenti e i sintomi che hai configurato. L'operazione non può essere annullata."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registos que passam para Doenças fechadas: %lld. Os tratamentos e sintomas que configuraste também são eliminados. Não é possível anular."
+          }
+        }
+      }
+    },
+    "Entries per day": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2814,6 +3218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einträge pro Tag"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros por día"
           }
         },
         "fr": {
@@ -2839,12 +3249,6 @@
     "Entries to include: %lld": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registros a incluir: %lld"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2855,6 +3259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einzubeziehende Einträge: %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros a incluir: %lld"
           }
         },
         "fr": {
@@ -2880,12 +3290,6 @@
     "Entries to include: %lld. Your notes are left out of the report.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registros a incluir: %lld. Tus notas se quedan fuera del informe."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2896,6 +3300,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einzubeziehende Einträge: %lld. Deine Notizen bleiben aus dem Bericht."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registros a incluir: %lld. Tus notas se quedan fuera del informe."
           }
         },
         "fr": {
@@ -2921,12 +3331,6 @@
     "Entries you report will show up here.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aquí aparecerá lo que vayas registrando."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2937,6 +3341,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deine Einträge erscheinen hier."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aquí aparecerá lo que vayas registrando."
           }
         },
         "fr": {
@@ -2962,12 +3372,6 @@
     "Evening medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación de la noche"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -2978,6 +3382,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Medikament abends"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación de la noche"
           }
         },
         "fr": {
@@ -3003,12 +3413,6 @@
     "Everything": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3019,6 +3423,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo"
           }
         },
         "fr": {
@@ -3044,12 +3454,6 @@
     "Everything an illness creates is an ordinary treatment or symptom afterwards — rename it, recolour it or remove it as you like.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todo lo que crea una enfermedad queda después como un tratamiento o síntoma normal: puedes renombrarlo, cambiarle el color o borrarlo."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3060,6 +3464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles, was eine Krankheit anlegt, ist danach eine normale Behandlung oder ein normales Symptom – umbenennen, umfärben oder löschen, wie du willst."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo lo que crea una enfermedad queda después como un tratamiento o síntoma normal: puedes renombrarlo, cambiarle el color o borrarlo."
           }
         },
         "fr": {
@@ -3085,12 +3495,6 @@
     "Everything from this illness is already in your catalog.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ya tienes todo lo de esta enfermedad."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3101,6 +3505,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles aus dieser Krankheit ist schon in deiner Liste."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya tienes todo lo de esta enfermedad."
           }
         },
         "fr": {
@@ -3126,12 +3536,6 @@
     "Export": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exportar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3142,6 +3546,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Export"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar"
           }
         },
         "fr": {
@@ -3167,12 +3577,6 @@
     "Export PDF": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exportar PDF"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3183,6 +3587,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "PDF exportieren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar PDF"
           }
         },
         "fr": {
@@ -3208,12 +3618,6 @@
     "Export to PDF": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exportar a PDF"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3224,6 +3628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Als PDF exportieren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar a PDF"
           }
         },
         "fr": {
@@ -3249,12 +3659,6 @@
     "Eye drops": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Colirio"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3265,6 +3669,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Augentropfen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colirio"
           }
         },
         "fr": {
@@ -3290,12 +3700,6 @@
     "Fatigue": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cansancio"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3306,6 +3710,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erschöpfung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cansancio"
           }
         },
         "fr": {
@@ -3331,12 +3741,6 @@
     "Fetches an extra list published on the project wiki. It downloads only when you open it, and sends nothing about you or your log.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descarga una lista extra publicada en el wiki del proyecto. Sólo se descarga cuando la abres, y no envía nada sobre ti ni sobre tu registro."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3347,6 +3751,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lädt eine zusätzliche Liste aus dem Projekt-Wiki. Sie wird nur geladen, wenn du sie öffnest, und sendet nichts über dich oder dein Protokoll."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descarga una lista extra publicada en el wiki del proyecto. Sólo se descarga cuando la abres, y no envía nada sobre ti ni sobre tu registro."
           }
         },
         "fr": {
@@ -3372,12 +3782,6 @@
     "Fever": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fiebre"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3388,6 +3792,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fieber"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiebre"
           }
         },
         "fr": {
@@ -3413,12 +3823,6 @@
     "Fibre supplement": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suplemento de fibra"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3429,6 +3833,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ballaststoffe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suplemento de fibra"
           }
         },
         "fr": {
@@ -3454,12 +3864,6 @@
     "First steps": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Primeros pasos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3470,6 +3874,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erste Schritte"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primeros pasos"
           }
         },
         "fr": {
@@ -3495,12 +3905,6 @@
     "Fluids": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Líquidos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3511,6 +3915,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Flüssigkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Líquidos"
           }
         },
         "fr": {
@@ -3536,12 +3946,6 @@
     "Generated %@": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Generado el %@"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3552,6 +3956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erstellt am %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generado el %@"
           }
         },
         "fr": {
@@ -3577,12 +3987,6 @@
     "Headache": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor de cabeza"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3593,6 +3997,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kopfschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de cabeza"
           }
         },
         "fr": {
@@ -3618,12 +4028,6 @@
     "Health log": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registro de salud"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3634,6 +4038,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gesundheitsprotokoll"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registro de salud"
           }
         },
         "fr": {
@@ -3659,12 +4069,6 @@
     "Heartburn": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ardor de estómago"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3675,6 +4079,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sodbrennen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ardor de estómago"
           }
         },
         "fr": {
@@ -3700,12 +4110,6 @@
     "Heat pack": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compresa caliente"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3716,6 +4120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wärmekompresse"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compresa caliente"
           }
         },
         "fr": {
@@ -3741,12 +4151,6 @@
     "Hidden": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oculto"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3757,6 +4161,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ausgeblendet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oculto"
           }
         },
         "fr": {
@@ -3782,12 +4192,6 @@
     "Hide": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3798,6 +4202,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ausblenden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar"
           }
         },
         "fr": {
@@ -3823,12 +4233,6 @@
     "Hide from the report form": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ocultar del formulario"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3839,6 +4243,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aus dem Formular ausblenden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocultar del formulario"
           }
         },
         "fr": {
@@ -3864,12 +4274,6 @@
     "History": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histórico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3880,6 +4284,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verlauf"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Histórico"
           }
         },
         "fr": {
@@ -3905,12 +4315,6 @@
     "I'll add my own": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Los añado yo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3921,6 +4325,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ich füge eigene hinzu"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los añado yo"
           }
         },
         "fr": {
@@ -3946,12 +4356,6 @@
     "Icon": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Icono"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -3962,6 +4366,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Symbol"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Icono"
           }
         },
         "fr": {
@@ -3984,15 +4394,50 @@
         }
       }
     },
-    "Include": {
+    "Illness": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malaltia"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krankheit"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Incluir"
+            "value": "Enfermedad"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maladie"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malattia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doença"
+          }
+        }
+      }
+    },
+    "Include": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4003,6 +4448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einbeziehen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir"
           }
         },
         "fr": {
@@ -4028,12 +4479,6 @@
     "Include notes": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Incluir las notas"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4044,6 +4489,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Notizen einbeziehen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir las notas"
           }
         },
         "fr": {
@@ -4069,12 +4520,6 @@
     "Irritability": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Irritabilidad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4085,6 +4530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reizbarkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Irritabilidad"
           }
         },
         "fr": {
@@ -4110,12 +4561,6 @@
     "It stays on your device": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No sale de tu dispositivo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4126,6 +4571,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Es bleibt auf deinem Gerät"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No sale de tu dispositivo"
           }
         },
         "fr": {
@@ -4151,12 +4602,6 @@
     "Itchy eyes": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Picor de ojos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4167,6 +4612,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Juckende Augen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Picor de ojos"
           }
         },
         "fr": {
@@ -4192,12 +4643,6 @@
     "Itchy skin": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Picor de piel"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4208,6 +4653,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Juckende Haut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Picor de piel"
           }
         },
         "fr": {
@@ -4230,15 +4681,50 @@
         }
       }
     },
-    "Keeps past entries intact but stops offering it for new ones.": {
+    "Keep what I can report": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conserva el que puc registrar"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behalten, was ich erfassen kann"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mantiene intactos los registros anteriores, pero deja de ofrecerlo para los nuevos."
+            "value": "Conservar lo que puedo registrar"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conserver ce que je peux signaler"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantieni ciò che posso registrare"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter o que posso registar"
+          }
+        }
+      }
+    },
+    "Keeps past entries intact but stops offering it for new ones.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4249,6 +4735,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behält frühere Einträge, wird aber nicht mehr angeboten."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantiene intactos los registros anteriores, pero deja de ofrecerlo para los nuevos."
           }
         },
         "fr": {
@@ -4274,12 +4766,6 @@
     "Kind": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tipo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4290,6 +4776,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Art"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tipo"
           }
         },
         "fr": {
@@ -4315,12 +4807,6 @@
     "Light sensitivity": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sensibilidad a la luz"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4331,6 +4817,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lichtempfindlichkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidad a la luz"
           }
         },
         "fr": {
@@ -4356,12 +4848,6 @@
     "Locked": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bloqueado"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4372,6 +4858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gesperrt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bloqueado"
           }
         },
         "fr": {
@@ -4397,12 +4889,6 @@
     "Look back": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mira atrás"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4413,6 +4899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zurückblicken"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mira atrás"
           }
         },
         "fr": {
@@ -4438,12 +4930,6 @@
     "Loss of appetite": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Falta de apetito"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4454,6 +4940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Appetitlosigkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta de apetito"
           }
         },
         "fr": {
@@ -4479,12 +4971,6 @@
     "Low mood": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ánimo bajo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4495,6 +4981,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niedergeschlagenheit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ánimo bajo"
           }
         },
         "fr": {
@@ -4520,12 +5012,6 @@
     "Low mood or anxiety": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ánimo bajo o ansiedad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4536,6 +5022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niedergeschlagenheit oder Angst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ánimo bajo o ansiedad"
           }
         },
         "fr": {
@@ -4561,12 +5053,6 @@
     "Lower back pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor lumbar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4577,6 +5063,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kreuzschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor lumbar"
           }
         },
         "fr": {
@@ -4602,12 +5094,6 @@
     "Medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4618,6 +5104,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Medikament"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación"
           }
         },
         "fr": {
@@ -4643,12 +5135,6 @@
     "Migraine": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Migraña"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4659,6 +5145,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Migräne"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migraña"
           }
         },
         "fr": {
@@ -4684,12 +5176,6 @@
     "Mild": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leve"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4700,6 +5186,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leicht"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leve"
           }
         },
         "fr": {
@@ -4725,12 +5217,6 @@
     "Moderate": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Moderado"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4741,6 +5227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mittel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moderado"
           }
         },
         "fr": {
@@ -4763,15 +5255,50 @@
         }
       }
     },
-    "More illnesses": {
+    "More": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Més"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mehr"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Más enfermedades"
+            "value": "Más"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altro"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mais"
+          }
+        }
+      }
+    },
+    "More illnesses": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4782,6 +5309,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Weitere Krankheiten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más enfermedades"
           }
         },
         "fr": {
@@ -4807,12 +5340,6 @@
     "Morning medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación de la mañana"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4823,6 +5350,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Medikament morgens"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación de la mañana"
           }
         },
         "fr": {
@@ -4848,12 +5381,6 @@
     "Mouth sores": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Llagas en la boca"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4864,6 +5391,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wunde Mundschleimhaut"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Llagas en la boca"
           }
         },
         "fr": {
@@ -4889,12 +5422,6 @@
     "Muscle aches": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor muscular"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4905,6 +5432,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Muskelschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor muscular"
           }
         },
         "fr": {
@@ -4930,12 +5463,6 @@
     "Name": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nombre"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4946,6 +5473,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Name"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nombre"
           }
         },
         "fr": {
@@ -4968,15 +5501,50 @@
         }
       }
     },
-    "Nasal spray": {
+    "Name this illness": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posa un nom a la malaltia"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Krankheit benennen"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Spray nasal"
+            "value": "Ponle nombre a la enfermedad"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nommez cette maladie"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dai un nome alla malattia"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dá um nome a esta doença"
+          }
+        }
+      }
+    },
+    "Nasal spray": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -4987,6 +5555,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nasenspray"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spray nasal"
           }
         },
         "fr": {
@@ -5012,12 +5586,6 @@
     "Nausea": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Náuseas"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5028,6 +5596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Übelkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Náuseas"
           }
         },
         "fr": {
@@ -5053,12 +5627,6 @@
     "Neck pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor de cuello"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5069,6 +5637,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nackenschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de cuello"
           }
         },
         "fr": {
@@ -5094,12 +5668,6 @@
     "Neck stiffness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rigidez de cuello"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5110,6 +5678,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nackensteife"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rigidez de cuello"
           }
         },
         "fr": {
@@ -5135,12 +5709,6 @@
     "New": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuevo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5151,6 +5719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuevo"
           }
         },
         "fr": {
@@ -5176,12 +5750,6 @@
     "Night waking": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Despertares nocturnos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5192,6 +5760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nächtliches Aufwachen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despertares nocturnos"
           }
         },
         "fr": {
@@ -5217,12 +5791,6 @@
     "No account, no tracking, nothing uploaded. You can lock the app with Face ID from Settings.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin cuenta, sin seguimiento, nada se sube. Puedes bloquear la app con Face ID desde Configuración."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5233,6 +5801,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kein Konto, kein Tracking, nichts wird hochgeladen. Du kannst die App in den Einstellungen mit Face ID sperren."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin cuenta, sin seguimiento, nada se sube. Puedes bloquear la app con Face ID desde Configuración."
           }
         },
         "fr": {
@@ -5255,15 +5829,50 @@
         }
       }
     },
-    "No entries in this period.": {
+    "No closed illnesses": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hi ha cap malaltia tancada"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine abgeschlossenen Krankheiten"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "No hay registros en este periodo."
+            "value": "No hay enfermedades cerradas"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune maladie clôturée"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuna malattia chiusa"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem doenças fechadas"
+          }
+        }
+      }
+    },
+    "No entries in this period.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5274,6 +5883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keine Einträge in diesem Zeitraum."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay registros en este periodo."
           }
         },
         "fr": {
@@ -5299,12 +5914,6 @@
     "No extra illnesses are published right now.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ahora mismo no hay enfermedades extra publicadas."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5315,6 +5924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Derzeit sind keine weiteren Krankheiten veröffentlicht."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora mismo no hay enfermedades extra publicadas."
           }
         },
         "fr": {
@@ -5340,12 +5955,6 @@
     "Not available": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No disponible"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5356,6 +5965,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nicht verfügbar"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No disponible"
           }
         },
         "fr": {
@@ -5381,12 +5996,6 @@
     "Not now": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ahora no"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5397,6 +6006,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nicht jetzt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora no"
           }
         },
         "fr": {
@@ -5422,12 +6037,6 @@
     "Not recorded — tap a number to rate it": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin valorar — toca un número para valorarlo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5438,6 +6047,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nicht erfasst – tippe auf eine Zahl"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin valorar — toca un número para valorarlo"
           }
         },
         "fr": {
@@ -5463,12 +6078,6 @@
     "Note (optional)": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nota (opcional)"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5479,6 +6088,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Notiz (optional)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nota (opcional)"
           }
         },
         "fr": {
@@ -5504,12 +6119,6 @@
     "Nothing configured yet. Pick an illness to get the usual treatments and symptoms in one go.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todavía no has configurado nada. Elige una enfermedad y se añaden de golpe los tratamientos y síntomas habituales."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5520,6 +6129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noch nichts eingerichtet. Wähle eine Krankheit, um die üblichen Behandlungen und Symptome auf einmal zu bekommen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no has configurado nada. Elige una enfermedad y se añaden de golpe los tratamientos y síntomas habituales."
           }
         },
         "fr": {
@@ -5545,12 +6160,6 @@
     "Nothing logged yet": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Todavía no hay registros"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5561,6 +6170,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Noch nichts erfasst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no hay registros"
           }
         },
         "fr": {
@@ -5583,15 +6198,50 @@
         }
       }
     },
-    "Now": {
+    "Nothing to close": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hi ha res per tancar"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts abzuschließen"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ahora"
+            "value": "No hay nada que cerrar"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien à clôturer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niente da chiudere"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada para fechar"
+          }
+        }
+      }
+    },
+    "Now": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5602,6 +6252,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jetzt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ahora"
           }
         },
         "fr": {
@@ -5630,12 +6286,6 @@
     "Numbness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hormigueo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5646,6 +6296,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Taubheitsgefühl"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hormigueo"
           }
         },
         "fr": {
@@ -5671,12 +6327,6 @@
     "Open Settings": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abrir Configuración"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5687,6 +6337,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einstellungen öffnen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir Configuración"
           }
         },
         "fr": {
@@ -5712,12 +6368,6 @@
     "Oral medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación oral"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5728,6 +6378,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Medikament oral"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación oral"
           }
         },
         "fr": {
@@ -5753,12 +6409,6 @@
     "Pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5769,6 +6419,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schmerz"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor"
           }
         },
         "fr": {
@@ -5794,12 +6450,6 @@
     "Painkiller": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Analgésico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5810,6 +6460,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schmerzmittel"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analgésico"
           }
         },
         "fr": {
@@ -5835,12 +6491,6 @@
     "Passcode": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Código"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5851,6 +6501,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Code"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código"
           }
         },
         "fr": {
@@ -5876,12 +6532,6 @@
     "Period": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Periodo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5892,6 +6542,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zeitraum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Periodo"
           }
         },
         "fr": {
@@ -5917,12 +6573,6 @@
     "Physiotherapy": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fisioterapia"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5933,6 +6583,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Physiotherapie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fisioterapia"
           }
         },
         "fr": {
@@ -5958,12 +6614,6 @@
     "Pick an illness and the treatments and symptoms usually tracked for it are created for you. You can edit or remove any of them.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige una enfermedad y se crean los tratamientos y síntomas que se suelen registrar. Puedes editarlos o borrarlos."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -5974,6 +6624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wähle eine Krankheit, und die üblichen Behandlungen und Symptome werden für dich angelegt. Du kannst sie bearbeiten oder löschen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige una enfermedad y se crean los tratamientos y síntomas que se suelen registrar. Puedes editarlos o borrarlos."
           }
         },
         "fr": {
@@ -5999,12 +6655,6 @@
     "Poor sleep": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dormir mal"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6015,6 +6665,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schlechter Schlaf"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dormir mal"
           }
         },
         "fr": {
@@ -6040,12 +6696,6 @@
     "Prefilled when you report this treatment. Leave empty for none.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Se rellena sola al registrar este tratamiento. Déjala vacía si no quieres ninguna."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6056,6 +6706,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wird beim Erfassen dieser Behandlung vorausgefüllt. Leer lassen für keine."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se rellena sola al registrar este tratamiento. Déjala vacía si no quieres ninguna."
           }
         },
         "fr": {
@@ -6081,12 +6737,6 @@
     "Preventer inhaler": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inhalador preventivo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6097,6 +6747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Basisinhalator"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalador preventivo"
           }
         },
         "fr": {
@@ -6122,12 +6778,6 @@
     "Preventive medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación preventiva"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6138,6 +6788,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vorbeugendes Medikament"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación preventiva"
           }
         },
         "fr": {
@@ -6163,12 +6819,6 @@
     "Preview": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vista previa"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6179,6 +6829,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vorschau"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vista previa"
           }
         },
         "fr": {
@@ -6204,12 +6860,6 @@
     "Privacy": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacidad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6220,6 +6870,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Datenschutz"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidad"
           }
         },
         "fr": {
@@ -6245,12 +6901,6 @@
     "Privacy Policy": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Política de privacidad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6261,6 +6911,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Datenschutzerklärung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Política de privacidad"
           }
         },
         "fr": {
@@ -6286,12 +6942,6 @@
     "Probiotic": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Probiótico"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6302,6 +6952,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Probiotikum"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probiótico"
           }
         },
         "fr": {
@@ -6327,12 +6983,6 @@
     "Radiating pain": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor irradiado"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6343,6 +6993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ausstrahlender Schmerz"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor irradiado"
           }
         },
         "fr": {
@@ -6368,12 +7024,6 @@
     "Radiotherapy session": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesión de radioterapia"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6384,6 +7034,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bestrahlungstermin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de radioterapia"
           }
         },
         "fr": {
@@ -6409,12 +7065,6 @@
     "Rate severity 1–5": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valorar intensidad de 1 a 5"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6425,6 +7075,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schweregrad 1–5 bewerten"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valorar intensidad de 1 a 5"
           }
         },
         "fr": {
@@ -6450,12 +7106,6 @@
     "Rates severity": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Con intensidad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6466,6 +7116,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewertet den Schweregrad"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con intensidad"
           }
         },
         "fr": {
@@ -6491,12 +7147,6 @@
     "Reliever inhaler": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inhalador de rescate"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6507,6 +7157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bedarfsinhalator"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalador de rescate"
           }
         },
         "fr": {
@@ -6529,15 +7185,50 @@
         }
       }
     },
-    "Report": {
+    "Rename": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reanomena"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Umbenennen"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Registrar"
+            "value": "Renombrar"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renommer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rinomina"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mudar o nome"
+          }
+        }
+      }
+    },
+    "Report": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6548,6 +7239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erfassen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registrar"
           }
         },
         "fr": {
@@ -6573,12 +7270,6 @@
     "Report in two taps": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registra en dos toques"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6589,6 +7280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erfassen mit zwei Tipps"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registra en dos toques"
           }
         },
         "fr": {
@@ -6614,12 +7311,6 @@
     "Require %@": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pedir %@"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6630,6 +7321,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ verlangen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pedir %@"
           }
         },
         "fr": {
@@ -6655,12 +7352,6 @@
     "Rescue medication": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Medicación de rescate"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6671,6 +7362,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Notfallmedikament"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación de rescate"
           }
         },
         "fr": {
@@ -6696,12 +7393,6 @@
     "Reset the app": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restablecer la app"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6712,6 +7403,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "App zurücksetzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer la app"
           }
         },
         "fr": {
@@ -6737,12 +7434,6 @@
     "Rest": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descanso"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6753,6 +7444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ruhe"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descanso"
           }
         },
         "fr": {
@@ -6778,12 +7475,6 @@
     "Rest in a dark room": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descansar a oscuras"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6794,6 +7485,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Im Dunkeln ruhen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descansar a oscuras"
           }
         },
         "fr": {
@@ -6819,12 +7516,6 @@
     "Restore": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6835,6 +7526,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wiederherstellen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurar"
           }
         },
         "fr": {
@@ -6860,12 +7557,6 @@
     "Runny nose": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Goteo nasal"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6876,6 +7567,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Laufende Nase"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goteo nasal"
           }
         },
         "fr": {
@@ -6901,12 +7598,6 @@
     "Save": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6917,6 +7608,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Speichern"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar"
           }
         },
         "fr": {
@@ -6942,12 +7639,6 @@
     "Saved %@": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ guardado"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6958,6 +7649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ gespeichert"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ guardado"
           }
         },
         "fr": {
@@ -6983,12 +7680,6 @@
     "Seasonal allergy": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alergia estacional"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -6999,6 +7690,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Saisonale Allergie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alergia estacional"
           }
         },
         "fr": {
@@ -7024,12 +7721,6 @@
     "Set a passcode on this device to use the lock.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Configura un código en este dispositivo para poder bloquear la app."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7040,6 +7731,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Richte auf diesem Gerät einen Code ein, um die Sperre zu nutzen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configura un código en este dispositivo para poder bloquear la app."
           }
         },
         "fr": {
@@ -7065,12 +7762,6 @@
     "Settings": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Configuración"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7081,6 +7772,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einstellungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configuración"
           }
         },
         "fr": {
@@ -7106,12 +7803,6 @@
     "Severity": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intensidad"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7122,6 +7813,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schweregrad"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensidad"
           }
         },
         "fr": {
@@ -7147,12 +7844,6 @@
     "Severity %lld of 5": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intensidad %lld de 5"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7163,6 +7854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schweregrad %lld von 5"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensidad %lld de 5"
           }
         },
         "fr": {
@@ -7188,12 +7885,6 @@
     "Severity %lld/5": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Intensidad %lld/5"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7204,6 +7895,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Schweregrad %lld/5"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intensidad %lld/5"
           }
         },
         "fr": {
@@ -7229,12 +7926,6 @@
     "Share PDF": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Compartir PDF"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7245,6 +7936,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "PDF teilen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compartir PDF"
           }
         },
         "fr": {
@@ -7270,12 +7967,6 @@
     "Shortness of breath": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Falta de aire"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7286,6 +7977,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Atemnot"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta de aire"
           }
         },
         "fr": {
@@ -7311,12 +8008,6 @@
     "Show": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostrar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7327,6 +8018,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einblenden"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar"
           }
         },
         "fr": {
@@ -7352,12 +8049,6 @@
     "Sneezing": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Estornudos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7368,6 +8059,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niesen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estornudos"
           }
         },
         "fr": {
@@ -7393,12 +8090,6 @@
     "Something else": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Otra cosa"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7409,6 +8100,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Etwas anderes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otra cosa"
           }
         },
         "fr": {
@@ -7434,12 +8131,6 @@
     "Sore throat": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dolor de garganta"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7450,6 +8141,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Halsschmerzen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de garganta"
           }
         },
         "fr": {
@@ -7475,12 +8172,6 @@
     "Sound sensitivity": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sensibilidad al ruido"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7491,6 +8182,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geräuschempfindlichkeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidad al ruido"
           }
         },
         "fr": {
@@ -7516,12 +8213,6 @@
     "Start over?": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Empezar de nuevo?"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7532,6 +8223,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neu anfangen?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Empezar de nuevo?"
           }
         },
         "fr": {
@@ -7557,12 +8254,6 @@
     "Stiffness": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rigidez"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7573,6 +8264,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Steifheit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rigidez"
           }
         },
         "fr": {
@@ -7598,12 +8295,6 @@
     "Stretching": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Estiramientos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7614,6 +8305,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dehnübungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estiramientos"
           }
         },
         "fr": {
@@ -7636,15 +8333,50 @@
         }
       }
     },
-    "Support": {
+    "Summary": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resum"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übersicht"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Soporte"
+            "value": "Resumen"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Résumé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riepilogo"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resumo"
+          }
+        }
+      }
+    },
+    "Support": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7655,6 +8387,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Support"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soporte"
           }
         },
         "fr": {
@@ -7680,12 +8418,6 @@
     "Symptom": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Síntoma"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7696,6 +8428,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Symptom"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Síntoma"
           }
         },
         "fr": {
@@ -7721,12 +8459,6 @@
     "Symptoms": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Síntomas"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7737,6 +8469,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Symptome"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Síntomas"
           }
         },
         "fr": {
@@ -7765,12 +8503,6 @@
     "Tap what happened and save. The date starts at today and the time at now, with shortcuts for a while ago.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Toca lo que ha pasado y guarda. La fecha empieza en hoy y la hora en ahora, con atajos para hace un rato."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7781,6 +8513,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tippe an, was passiert ist, und speichere. Datum ist heute, Uhrzeit ist jetzt – mit Kurzbefehlen für vorhin."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca lo que ha pasado y guarda. La fecha empieza en hoy y la hora en ahora, con atajos para hace un rato."
           }
         },
         "fr": {
@@ -7806,12 +8544,6 @@
     "The app locks when it goes to the background and asks to unlock the next time you open it.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La app se bloquea al pasar a segundo plano y pide desbloquearla la próxima vez que la abras."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7822,6 +8554,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die App sperrt sich im Hintergrund und fragt beim nächsten Öffnen nach der Entsperrung."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La app se bloquea al pasar a segundo plano y pide desbloquearla la próxima vez que la abras."
           }
         },
         "fr": {
@@ -7844,15 +8582,50 @@
         }
       }
     },
-    "The ones you already have are left untouched.": {
+    "The log is archived, not deleted — you can read it and export it at any time. The Report and History tabs start empty.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El registre s'arxiva, no s'esborra: el podràs llegir i exportar quan vulguis. Les pestanyes Registrar i Històric comencen buides."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Protokoll wird archiviert, nicht gelöscht – du kannst es jederzeit lesen und exportieren. Die Tabs „Erfassen“ und „Verlauf“ starten leer."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Los que ya tienes se quedan como están."
+            "value": "El registro se archiva, no se borra: podrás leerlo y exportarlo cuando quieras. Las pestañas Registrar e Histórico empiezan vacías."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le journal est archivé, pas supprimé : vous pourrez le consulter et l'exporter à tout moment. Les onglets Signaler et Historique repartent à vide."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Il registro viene archiviato, non eliminato: potrai leggerlo ed esportarlo quando vuoi. Le schede Registra e Cronologia ripartono vuote."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O registo é arquivado, não apagado: podes lê-lo e exportá-lo quando quiseres. Os separadores Registar e Histórico começam vazios."
+          }
+        }
+      }
+    },
+    "The ones you already have are left untouched.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7863,6 +8636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Was du schon hast, bleibt unverändert."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los que ya tienes se quedan como están."
           }
         },
         "fr": {
@@ -7888,12 +8667,6 @@
     "The published list couldn't be read.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se ha podido leer la lista publicada."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7904,6 +8677,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Die veröffentlichte Liste konnte nicht gelesen werden."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido leer la lista publicada."
           }
         },
         "fr": {
@@ -7929,12 +8708,6 @@
     "Therapy session": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sesión de terapia"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7945,6 +8718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Therapiesitzung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de terapia"
           }
         },
         "fr": {
@@ -7967,15 +8746,50 @@
         }
       }
     },
-    "This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.": {
+    "There are no entries in the current log yet.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encara no has registrat res."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im aktuellen Protokoll gibt es noch keine Einträge."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Se borran todas las entradas y todos los tratamientos y síntomas que hayas configurado, y podrás elegir una enfermedad otra vez. Los ajustes de privacidad se mantienen. No se puede deshacer."
+            "value": "Todavía no has registrado nada."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le journal actuel ne contient encore aucune entrée."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nel registro attuale non c'è ancora nessuna voce."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não registaste nada."
+          }
+        }
+      }
+    },
+    "This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -7986,6 +8800,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das löscht alle Einträge sowie alle eingerichteten Behandlungen und Symptome; danach kannst du wieder eine Krankheit wählen. Deine Datenschutzeinstellungen bleiben. Das lässt sich nicht widerrufen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se borran todas las entradas y todos los tratamientos y síntomas que hayas configurado, y podrás elegir una enfermedad otra vez. Los ajustes de privacidad se mantienen. No se puede deshacer."
           }
         },
         "fr": {
@@ -8008,15 +8828,91 @@
         }
       }
     },
-    "This list needs a newer version of the app.": {
+    "This deletes every entry, every closed illness, and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Això elimina tots els registres, totes les malalties tancades i tots els tractaments i símptomes que hagis configurat, i després et deixa triar una malaltia una altra vegada. Els teus ajustos de privadesa es conserven. Això no es pot desfer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Damit werden alle Einträge, alle abgeschlossenen Krankheiten und alle eingerichteten Behandlungen und Symptome gelöscht; anschließend kannst du wieder eine Krankheit auswählen. Deine Datenschutzeinstellungen bleiben erhalten. Das lässt sich nicht rückgängig machen."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Esta lista necesita una versión más nueva de la app."
+            "value": "Esto elimina todos los registros, todas las enfermedades cerradas y todos los tratamientos y síntomas que hayas configurado, y después te deja elegir una enfermedad otra vez. Tus ajustes de privacidad se conservan. Esto no se puede deshacer."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela supprime toutes les entrées, toutes les maladies clôturées et tous les traitements et symptômes configurés, puis vous laisse choisir une maladie à nouveau. Vos réglages de confidentialité sont conservés. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina tutte le voci, tutte le malattie chiuse e tutti i trattamenti e i sintomi che hai configurato, poi ti lascia scegliere di nuovo una malattia. Le impostazioni sulla privacy vengono mantenute. L'operazione non può essere annullata."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isto elimina todos os registos, todas as doenças fechadas e todos os tratamentos e sintomas que configuraste, e depois deixa-te escolher outra vez uma doença. As tuas definições de privacidade são mantidas. Não é possível anular."
+          }
+        }
+      }
+    },
+    "This deletes the archived log for good, including every entry in it. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Això elimina per sempre el registre arxivat, amb tot el que conté. Això no es pot desfer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Damit wird das archivierte Protokoll endgültig gelöscht, samt allem, was darin steht. Das lässt sich nicht rückgängig machen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto elimina para siempre el registro archivado, con todo lo que contiene. Esto no se puede deshacer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cela supprime définitivement le journal archivé et tout ce qu'il contient. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina per sempre il registro archiviato e tutto ciò che contiene. L'operazione non può essere annullata."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Isto elimina para sempre o registo arquivado e tudo o que contém. Não é possível anular."
+          }
+        }
+      }
+    },
+    "This list needs a newer version of the app.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8027,6 +8923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diese Liste erfordert eine neuere App-Version."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta lista necesita una versión más nueva de la app."
           }
         },
         "fr": {
@@ -8052,12 +8954,6 @@
     "Throat lozenge": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pastilla para la garganta"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8068,6 +8964,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Halstablette"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pastilla para la garganta"
           }
         },
         "fr": {
@@ -8093,12 +8995,6 @@
     "Time": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hora"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8109,6 +9005,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Uhrzeit"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hora"
           }
         },
         "fr": {
@@ -8134,12 +9036,6 @@
     "Today": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hoy"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8150,6 +9046,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Heute"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoy"
           }
         },
         "fr": {
@@ -8175,12 +9077,6 @@
     "Treatment": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tratamiento"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8191,6 +9087,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behandlung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamiento"
           }
         },
         "fr": {
@@ -8216,12 +9118,6 @@
     "Treatments": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tratamientos"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8232,6 +9128,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behandlungen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamientos"
           }
         },
         "fr": {
@@ -8257,12 +9159,6 @@
     "Treatments: %lld · Symptoms: %lld": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tratamientos: %1$lld · Síntomas: %2$lld"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8273,6 +9169,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behandlungen: %lld · Symptome: %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamientos: %1$lld · Síntomas: %2$lld"
           }
         },
         "fr": {
@@ -8298,12 +9200,6 @@
     "Treatments: %lld · Symptoms: %lld · Days: %lld": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tratamientos: %1$lld · Síntomas: %2$lld · Días: %3$lld"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8314,6 +9210,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behandlungen: %lld · Symptome: %lld · Tage: %lld"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tratamientos: %1$lld · Síntomas: %2$lld · Días: %3$lld"
           }
         },
         "fr": {
@@ -8339,12 +9241,6 @@
     "Trouble concentrating": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dificultad para concentrarse"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8355,6 +9251,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Konzentrationsprobleme"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dificultad para concentrarse"
           }
         },
         "fr": {
@@ -8380,12 +9282,6 @@
     "Try again": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reintentar"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8396,6 +9292,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erneut versuchen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reintentar"
           }
         },
         "fr": {
@@ -8421,12 +9323,6 @@
     "Unbearable": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Insoportable"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8437,6 +9333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unerträglich"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insoportable"
           }
         },
         "fr": {
@@ -8462,12 +9364,6 @@
     "Undo": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deshacer"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8478,6 +9374,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widerrufen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deshacer"
           }
         },
         "fr": {
@@ -8503,12 +9405,6 @@
     "Unlock": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquear"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8519,6 +9415,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entsperren"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear"
           }
         },
         "fr": {
@@ -8544,12 +9446,6 @@
     "Unlock with %@ to see your log.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquea con %@ para ver tu registro."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8560,6 +9456,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mit %@ entsperren, um dein Protokoll zu sehen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquea con %@ para ver tu registro."
           }
         },
         "fr": {
@@ -8585,12 +9487,6 @@
     "Unlock your health log.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Desbloquea tu registro de salud."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8601,6 +9497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Entsperre dein Gesundheitsprotokoll."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquea tu registro de salud."
           }
         },
         "fr": {
@@ -8626,12 +9528,6 @@
     "Unnamed": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin nombre"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8642,6 +9538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ohne Namen"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin nombre"
           }
         },
         "fr": {
@@ -8667,12 +9569,6 @@
     "Version %@ (%@)": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Versión %1$@ (%2$@)"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8683,6 +9579,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Version %@ (%@)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versión %1$@ (%2$@)"
           }
         },
         "fr": {
@@ -8708,12 +9610,6 @@
     "Walk": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paseo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8724,6 +9620,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spaziergang"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paseo"
           }
         },
         "fr": {
@@ -8749,12 +9651,6 @@
     "What are you reporting?": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "¿Qué quieres registrar?"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8765,6 +9661,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Was möchtest du erfassen?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué quieres registrar?"
           }
         },
         "fr": {
@@ -8787,15 +9689,50 @@
         }
       }
     },
-    "What you can report": {
+    "What gets archived": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Què s'arxiva"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was archiviert wird"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Qué puedes registrar"
+            "value": "Qué se archiva"
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce qui sera archivé"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cosa viene archiviato"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que é arquivado"
+          }
+        }
+      }
+    },
+    "What you can report": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8806,6 +9743,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Was du erfassen kannst"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué puedes registrar"
           }
         },
         "fr": {
@@ -8831,12 +9774,6 @@
     "Wheezing": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sibilancias"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8847,6 +9784,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pfeifende Atmung"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sibilancias"
           }
         },
         "fr": {
@@ -8872,12 +9815,6 @@
     "When": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cuándo"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8888,6 +9825,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wann"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuándo"
           }
         },
         "fr": {
@@ -8910,15 +9853,50 @@
         }
       }
     },
-    "You haven't configured any yet. Settings can add the usual ones for an illness in one go.": {
+    "When you close an illness, its log is archived here.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quan tanques una malaltia, el seu registre s'arxiva aquí."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn du eine Krankheit abschließt, landet ihr Protokoll hier im Archiv."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Todavía no has configurado ninguno. En Configuración puedes añadir de golpe los habituales de una enfermedad."
+            "value": "Cuando cierras una enfermedad, su registro se archiva aquí."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand vous clôturez une maladie, son journal est archivé ici."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando chiudi una malattia, il suo registro viene archiviato qui."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando fechas uma doença, o registo dela fica arquivado aqui."
+          }
+        }
+      }
+    },
+    "You haven't configured any yet. Settings can add the usual ones for an illness in one go.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8929,6 +9907,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Du hast noch keine eingerichtet. In den Einstellungen kannst du die üblichen einer Krankheit auf einmal hinzufügen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no has configurado ninguno. En Configuración puedes añadir de golpe los habituales de una enfermedad."
           }
         },
         "fr": {
@@ -8951,15 +9935,91 @@
         }
       }
     },
-    "Your configured treatments and symptoms are kept. This can't be undone.": {
+    "You'll find it under Closed illnesses in Settings.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La trobaràs a Malalties tancades, dins de Configuració."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du findest sie unter „Abgeschlossene Krankheiten“ in den Einstellungen."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Se conservan los tratamientos y síntomas configurados. Esto no se puede deshacer."
+            "value": "La encontrarás en Enfermedades cerradas, dentro de Configuración."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous la retrouverez dans Maladies clôturées, sous Réglages."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La troverai in Malattie chiuse, dentro Impostazioni."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vais encontrá-la em Doenças fechadas, na Configuração."
+          }
+        }
+      }
+    },
+    "Your configured treatments and symptoms are kept, and so is anything you've already closed. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es conserven els tractaments i símptomes que tens configurats, i també tot el que ja hagis tancat. Això no es pot desfer."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine eingerichteten Behandlungen und Symptome bleiben erhalten, ebenso alles, was du bereits abgeschlossen hast. Das lässt sich nicht rückgängig machen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se conservan los tratamientos y síntomas que tienes configurados, y también todo lo que ya hayas cerrado. Esto no se puede deshacer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos traitements et symptômes configurés sont conservés, tout comme ce que vous avez déjà clôturé. Cette action est irréversible."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I trattamenti e i sintomi che hai configurato vengono mantenuti, così come tutto ciò che hai già chiuso. L'operazione non può essere annullata."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os tratamentos e sintomas que configuraste são mantidos, tal como tudo o que já fechaste. Não é possível anular."
+          }
+        }
+      }
+    },
+    "Your configured treatments and symptoms are kept. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -8970,6 +10030,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deine eingerichteten Behandlungen und Symptome bleiben. Das lässt sich nicht widerrufen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se conservan los tratamientos y síntomas configurados. Esto no se puede deshacer."
           }
         },
         "fr": {
@@ -8995,12 +10061,6 @@
     "Your data stays on this device. Storage: %@": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tus datos no salen de este dispositivo. Almacenamiento: %@"
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -9011,6 +10071,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deine Daten bleiben auf diesem Gerät. Speicher: %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tus datos no salen de este dispositivo. Almacenamiento: %@"
           }
         },
         "fr": {
@@ -9036,12 +10102,6 @@
     "Your entries are grouped by day, with a chart of how the days compare. Any period exports as a PDF for an appointment.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tus registros se agrupan por día, con un gráfico para comparar. Cualquier periodo se exporta a PDF para una cita."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -9052,6 +10112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deine Einträge sind nach Tag gruppiert, mit einem Diagramm zum Vergleich. Jeder Zeitraum lässt sich als PDF für einen Termin exportieren."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tus registros se agrupan por día, con un gráfico para comparar. Cualquier periodo se exporta a PDF para una cita."
           }
         },
         "fr": {
@@ -9077,12 +10143,6 @@
     "Your log stays on this device.": {
       "extractionState": "manual",
       "localizations": {
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu registro no sale de este dispositivo."
-          }
-        },
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -9093,6 +10153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dein Protokoll bleibt auf diesem Gerät."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu registro no sale de este dispositivo."
           }
         },
         "fr": {
@@ -9115,15 +10181,91 @@
         }
       }
     },
-    "e.g. 500 mg": {
+    "Your treatments and symptoms are deleted too, leaving the app as it was on day one. Entries already archived keep their names.": {
       "extractionState": "manual",
       "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "També s'eliminen els teus tractaments i símptomes, i l'app queda com el primer dia. Els registres ja arxivats conserven els seus noms."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Behandlungen und Symptome werden ebenfalls gelöscht – die App ist dann wie am ersten Tag. Bereits archivierte Einträge behalten ihre Namen."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "p. ej. 500 mg"
+            "value": "También se eliminan tus tratamientos y síntomas, y la app queda como el primer día. Los registros ya archivados conservan sus nombres."
           }
         },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos traitements et symptômes sont également supprimés, l'app revient à son premier jour. Les entrées déjà archivées gardent leurs noms."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vengono eliminati anche i tuoi trattamenti e sintomi, e l'app torna come il primo giorno. Le voci già archiviate mantengono i loro nomi."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os teus tratamentos e sintomas também são eliminados e a app fica como no primeiro dia. Os registos já arquivados mantêm os nomes."
+          }
+        }
+      }
+    },
+    "Your treatments and symptoms stay configured, ready for whatever you track next.": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Els teus tractaments i símptomes continuen configurats, a punt per al que registris tot seguit."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Behandlungen und Symptome bleiben eingerichtet – bereit für das, was du als Nächstes verfolgst."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tus tratamientos y síntomas siguen configurados, listos para lo que registres a continuación."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos traitements et symptômes restent configurés, prêts pour ce que vous suivrez ensuite."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I tuoi trattamenti e sintomi restano configurati, pronti per ciò che seguirai dopo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os teus tratamentos e sintomas continuam configurados, prontos para o que registares a seguir."
+          }
+        }
+      }
+    },
+    "e.g. 500 mg": {
+      "extractionState": "manual",
+      "localizations": {
         "ca": {
           "stringUnit": {
             "state": "translated",
@@ -9134,6 +10276,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "z. B. 500 mg"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p. ej. 500 mg"
           }
         },
         "fr": {
