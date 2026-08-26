@@ -44,9 +44,14 @@ what symptoms you felt, when. Everything stays on the device.
 - Face ID / Touch ID lock, off by default. Uses device-owner authentication, so a
   passcode always works as a fallback.
 - PDF export of any period, rendered with `UIGraphicsPDFRenderer` and shared with
-  `ShareLink`.
-- English source strings with a Spanish translation in
-  `Resources/Localizable.xcstrings`.
+  `ShareLink`. Free-text notes are included by default but can be left out — the
+  report often goes to someone else. The switch only appears when there's a note
+  in range, and the choice is remembered.
+- English source strings translated into Spanish, Catalan, German, French,
+  Italian and Portuguese in `Resources/Localizable.xcstrings`. Catalog content
+  (illness, treatment and symptom names) is localized at first access and copied
+  into the database as plain text, so history stays readable if the device
+  language changes later.
 - Swift Testing unit tests in `TrackMyIllnessTests`, covering the models, both
   stores (against a throwaway in-memory container) and every view model.
 

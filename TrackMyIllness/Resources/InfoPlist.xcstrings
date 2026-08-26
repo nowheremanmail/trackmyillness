@@ -10,6 +10,36 @@
             "state": "new",
             "value": "Symptrace"
           }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
         }
       }
     },
@@ -22,6 +52,36 @@
             "state": "new",
             "value": "Symptrace"
           }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
         }
       }
     },
@@ -32,6 +92,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Face ID desbloquea la app para que tu registro de salud siga siendo privado."
+          }
+        },
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID desbloca l'app perquè el teu registre de salut continuï sent privat."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID entsperrt die App, damit dein Gesundheitsprotokoll privat bleibt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID déverrouille l'app pour que votre journal de santé reste privé."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID sblocca l'app per mantenere privato il tuo diario di salute."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Face ID desbloqueia a app para que o teu registo de saúde continue privado."
           }
         }
       }
