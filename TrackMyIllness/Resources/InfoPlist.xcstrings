@@ -1,0 +1,17 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSFaceIDUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID desbloquea la app para que tu registro de salud siga siendo privado."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
