@@ -61,7 +61,12 @@ struct LogView: View {
             .animation(.snappy, value: model.lastSavedEntry)
             .animation(.snappy, value: model.selectedItemID)
         }
-        .onAppear { model.refresh() }
+        .onAppear {
+            model.refresh()
+            #if DEBUG
+            model.applyScreenshotSelectionIfNeeded()
+            #endif
+        }
     }
 
     // MARK: Sections

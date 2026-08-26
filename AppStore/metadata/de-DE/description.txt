@@ -1,0 +1,23 @@
+Symptrace ist ein privates Protokoll deiner Krankheit: was du genommen hast, was du gespürt hast und wann.
+
+ZWEI TIPPS ZUM ERFASSEN
+Behandlung oder Symptom wählen, antippen worum es ging, speichern. Das Datum ist schon heute und die Uhrzeit schon jetzt, mit Kurzbefehlen für vor 30 Minuten, 1 Stunde oder 2 Stunden, wenn du etwas nachträgst. Behandlungen können eine Dosis tragen, Symptome eine Stärke von 1 bis 5, und beide eine Notiz.
+
+IN SEKUNDEN EINGERICHTET
+Wähle eine Krankheit, und Symptrace legt die Behandlungen und Symptome an, die dabei üblicherweise verfolgt werden. Danach umbenennen, umfärben, umsortieren oder ausblenden - ab dann sind es ganz normale Einträge in deiner Liste. Oder füge deine eigenen einzeln hinzu.
+
+SIEH, WIE ES LÄUFT
+Der Verlauf gruppiert alles nach Tagen über 7, 30 oder 90 Tage oder von Anfang an, mit einem Diagramm dazu, wie viel du pro Tag erfasst hast und wie stark die Symptome im Schnitt waren.
+
+KRANKHEIT ABSCHLIESSEN, WENN SIE VORBEI IST
+Beim Abschließen wandert das ganze Protokoll ins Archiv - lesbar und exportierbar wie zuvor - und du startest sauber in das, was als Nächstes kommt. Abgeschlossene Krankheiten bleiben in den Einstellungen, so lange du willst.
+
+ETWAS FÜR DIE ARZTPRAXIS
+Exportiere jeden Zeitraum als PDF: ein Abschnitt pro Tag, eine Zeile pro Eintrag, fertig zum Drucken oder Senden. Du entscheidest, ob deine privaten Notizen mitkommen.
+
+PRIVAT VON GRUND AUF
+Alles bleibt auf deinem Gerät. Kein Konto, keine Anmeldung, keine Analyse, keine Werbung, und dein Protokoll wird nirgendwohin hochgeladen. Schalte Face ID ein, und die App sperrt sich, sobald sie den Bildschirm verlässt.
+
+Symptrace ist kostenlos und quelloffen: github.com/nowheremanmail/trackmyillness
+
+Symptrace ist ein Tagebuch, keine Ärztin. Es diagnostiziert nichts, sagt dir nicht, was du nehmen sollst, und ersetzt keine ärztliche Beratung.

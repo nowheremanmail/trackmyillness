@@ -1,0 +1,1 @@
+symptômes,médicaments,journal,santé,suivi,maladie,douleur,chronique,pdf

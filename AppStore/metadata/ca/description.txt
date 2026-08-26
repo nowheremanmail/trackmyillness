@@ -1,0 +1,23 @@
+Symptrace és un registre privat de la teva malaltia: què has pres, què has notat i quan.
+
+DOS TOCS PER REGISTRAR
+Tria tractament o símptoma, toca quin era i desa. La data ja és avui i l'hora ja és ara, amb dreceres d'un toc per a fa 30 minuts, 1 hora o 2 hores quan ho apuntes amb retard. Els tractaments poden portar dosi, els símptomes una intensitat de l'1 al 5, i tots dos una nota.
+
+CONFIGURAT EN SEGONS
+Tria una malaltia i Symptrace crea els tractaments i símptomes que se solen seguir. Després reanomena'ls, canvia'ls el color, reordena'ls o amaga'ls: a partir d'aquell moment són elements normals de la teva llista. O afegeix els teus, un a un.
+
+MIRA COM VA
+L'històric ho agrupa tot per dies en 7, 30 o 90 dies, o des del principi, amb un gràfic de quant has registrat cada dia i de la intensitat mitjana dels símptomes.
+
+TANCA UNA MALALTIA QUAN S'ACABA
+En tancar-la, el registre sencer s'arxiva —el podràs continuar llegint i exportant— i comences net per al que vingui després. Les malalties tancades es queden a Configuració tot el temps que vulguis.
+
+ALGUNA COSA PER PORTAR AL METGE
+Exporta qualsevol període en PDF: una secció per dia, una línia per registre, a punt per imprimir o enviar. Tu decideixes si les teves notes privades hi van a dins.
+
+PRIVAT DES DEL DISSENY
+Tot es queda al teu dispositiu. No hi ha compte, ni registre, ni analítiques, ni anuncis, i el teu historial no es puja enlloc. Activa el Face ID i l'app es bloca tan bon punt surt de la pantalla.
+
+Symptrace és gratuït i de codi obert: github.com/nowheremanmail/trackmyillness
+
+Symptrace és un diari, no un metge. No diagnostica res, no et diu què has de prendre i no substitueix el consell d'un professional sanitari.

@@ -16,8 +16,10 @@ what symptoms you felt, when. Everything stays on the device.
   (migraine, cold or flu, seasonal allergy, asthma, back pain, digestive
   discomfort, cancer treatment, low mood or anxiety, or a generic set), and
   **More illnesses** downloads an extra list published on the project wiki.
-  A first run opens on **First steps**, which walks through the app and hands
-  straight over to the illness picker.
+  **Close this illness** archives the current log and starts the Report and
+  History tabs clean; **Closed illnesses** reads any of them back and exports one
+  on its own. A first run opens on **First steps**, which walks through the app
+  and hands straight over to the illness picker.
 
 ## Details
 
@@ -39,8 +41,16 @@ what symptoms you felt, when. Everything stays on the device.
 - The Report tab orders its chips most-reported first, re-ranked when the tab
   appears so the grid never shifts under your finger mid-entry. Items used equally
   often keep the order set in Settings.
-- SwiftData for persistence (`AppDatabase`), reached through the `CatalogStoring`
-  and `EntryStoring` protocols so views and view models stay testable.
+- SwiftData for persistence (`AppDatabase`), reached through the `CatalogStoring`,
+  `EntryStoring` and `ClosedIllnessStoring` protocols so views and view models stay
+  testable.
+- Closing an illness copies and deletes nothing: it stamps every live entry with
+  the new `ClosedIllnessRecord`'s id in a single save, and the live queries filter
+  on `archiveID == ""` from then on. An archived entry therefore keeps every field
+  it ever had, "delete all entries" can't reach it, and the app-wide reset clears
+  both. There are no SwiftData relationships anywhere in the schema — `itemID` and
+  `archiveID` are plain ids, so renaming or deleting a catalog item never rewrites
+  history.
 - Face ID / Touch ID lock, off by default. Uses device-owner authentication, so a
   passcode always works as a fallback.
 - PDF export of any period, rendered with `UIGraphicsPDFRenderer` and shared with
@@ -85,6 +95,28 @@ xcodebuild test -project TrackMyIllness.xcodeproj -scheme TrackMyIllness -destin
 
 The tests run against in-memory stores and a stub authenticator, so they never
 touch the real database and never prompt for Face ID.
+
+## Shipping to the App Store
+
+`AppStore/` holds everything the repository can prepare for a submission:
+store metadata for all seven languages (length-checked against Apple's limits),
+screenshots at the two required sizes, the privacy policy to host, the App Privacy
+questionnaire answers, the notes for App Review, and a checklist of the account
+work that only the developer can do.
+
+```bash
+Tools/screenshots.sh        # regenerate the store screenshots
+Tools/archive.sh            # test, archive, export a signed .ipa
+Tools/archive.sh --upload   # …and send it to App Store Connect
+```
+
+The screenshots are reproducible rather than hand-taken: the script launches the
+app with `-seedScreenshotData` and `-screenshotRoute`, which fill a throwaway
+store and open one screen directly. Both are `#if DEBUG` only — see
+`Services/ScreenshotSupport.swift` — so no shipped build carries a launch argument
+that rewrites the user's database.
+
+Start at [AppStore/CHECKLIST.md](AppStore/CHECKLIST.md).
 
 ## License
 

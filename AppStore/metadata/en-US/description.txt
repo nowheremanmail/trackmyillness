@@ -1,0 +1,23 @@
+Symptrace is a private log for an illness: what you took, what you felt, and when.
+
+TWO TAPS TO REPORT
+Pick treatment or symptom, tap what it was, save. The date is already today and the time is already now, with one-tap shortcuts for 30 minutes, 1 hour or 2 hours ago when you are catching up. Treatments can carry a dose, symptoms a 1-5 severity, and anything can carry a note.
+
+SET UP IN SECONDS
+Pick an illness and Symptrace creates the treatments and symptoms usually tracked for it. Rename, recolour, reorder or hide any of them afterwards - they become ordinary items on your list. Or add your own, one at a time.
+
+SEE HOW IT IS GOING
+History groups everything by day over 7, 30 or 90 days, or all of it, with a chart of how much you logged each day and how bad the symptoms were on average.
+
+CLOSE AN ILLNESS WHEN IT IS OVER
+Closing files the whole log away - you can still read it and export it - and starts you clean for whatever comes next. Closed illnesses stay in Settings for as long as you want them.
+
+SOMETHING TO HAND YOUR DOCTOR
+Export any period as a PDF: one section per day, one line per entry, ready to print or send. You choose whether your private notes go with it.
+
+PRIVATE BY DESIGN
+Everything stays on your device. There is no account, no sign-up, no analytics and no ads, and your log is never uploaded anywhere. Turn on Face ID and the app locks the moment it leaves the screen.
+
+Symptrace is free and open source: github.com/nowheremanmail/trackmyillness
+
+Symptrace is a diary, not a doctor. It does not diagnose anything, it does not tell you what to take, and it is not a substitute for professional medical advice.

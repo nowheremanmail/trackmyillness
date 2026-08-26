@@ -1,0 +1,23 @@
+Symptrace est un journal privé de votre maladie : ce que vous avez pris, ce que vous avez ressenti, et quand.
+
+DEUX TOUCHES POUR SIGNALER
+Choisissez traitement ou symptôme, touchez lequel, enregistrez. La date est déjà aujourd'hui et l'heure déjà maintenant, avec des raccourcis pour il y a 30 minutes, 1 heure ou 2 heures quand vous rattrapez un oubli. Les traitements peuvent porter une dose, les symptômes une intensité de 1 à 5, et les deux une note.
+
+CONFIGURÉ EN QUELQUES SECONDES
+Choisissez une maladie et Symptrace crée les traitements et symptômes habituellement suivis. Renommez-les, changez leur couleur, réordonnez-les ou masquez-les ensuite : ce sont dès lors des éléments ordinaires de votre liste. Ou ajoutez les vôtres, un par un.
+
+VOYEZ OÙ VOUS EN ÊTES
+L'historique regroupe tout par jour sur 7, 30 ou 90 jours, ou depuis le début, avec un graphique de ce que vous avez noté chaque jour et de l'intensité moyenne des symptômes.
+
+CLÔTUREZ UNE MALADIE QUAND ELLE EST FINIE
+La clôture archive tout le journal - vous pourrez toujours le consulter et l'exporter - et vous repartez à zéro pour la suite. Les maladies clôturées restent dans les Réglages aussi longtemps que vous le souhaitez.
+
+QUELQUE CHOSE À DONNER À VOTRE MÉDECIN
+Exportez n'importe quelle période en PDF : une section par jour, une ligne par entrée, prêt à imprimer ou à envoyer. Vous décidez si vos notes privées partent avec.
+
+PRIVÉ PAR CONCEPTION
+Tout reste sur votre appareil. Pas de compte, pas d'inscription, pas de statistiques, pas de publicité, et votre journal n'est envoyé nulle part. Activez Face ID et l'app se verrouille dès qu'elle quitte l'écran.
+
+Symptrace est gratuit et open source : github.com/nowheremanmail/trackmyillness
+
+Symptrace est un journal, pas un médecin. Il ne diagnostique rien, ne vous dit pas quoi prendre et ne remplace pas un avis médical professionnel.

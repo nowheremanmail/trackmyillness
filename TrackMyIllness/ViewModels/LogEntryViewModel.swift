@@ -77,6 +77,17 @@ final class LogEntryViewModel {
 
     // MARK: Loading
 
+    /// Preselects the first symptom so a screenshot shows the whole form rather
+    /// than just the chips. Debug-only, and only on a screenshot run.
+    #if DEBUG
+    func applyScreenshotSelectionIfNeeded() {
+        guard ScreenshotMode.route == .report, selectedItemID == nil else { return }
+        kind = .symptom
+        refresh()
+        if let first = items.first { select(first) }
+    }
+    #endif
+
     /// Called when the tab appears: the catalog may have changed in Settings, and
     /// this is the moment to re-rank the chips by how often they're used.
     func refresh() {

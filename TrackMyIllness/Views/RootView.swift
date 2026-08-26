@@ -56,6 +56,15 @@ struct RootView: View {
             // Never over the lock screen: the walkthrough would be showing the app
             // to whoever picked the phone up.
             if !hasSeenFirstSteps, !lock.isLocked { showingFirstSteps = true }
+            #if DEBUG
+            if let route = ScreenshotMode.route {
+                selection = switch route {
+                case .report: .report
+                case .history: .history
+                case .settings, .close: .settings
+                }
+            }
+            #endif
         }
     }
 }

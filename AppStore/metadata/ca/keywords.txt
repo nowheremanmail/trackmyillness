@@ -1,0 +1,1 @@
+símptomes,medicació,diari,salut,registre,malaltia,dolor,pastilles,crònic,pdf

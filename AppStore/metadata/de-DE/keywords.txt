@@ -1,0 +1,1 @@
+symptome,medikamente,tagebuch,gesundheit,protokoll,krankheit,schmerz,chronisch,pdf

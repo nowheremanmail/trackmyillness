@@ -1,0 +1,1 @@
+symptom,tracker,medication,diary,health,log,illness,pain,journal,pills,chronic,pdf

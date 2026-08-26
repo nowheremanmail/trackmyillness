@@ -13,6 +13,13 @@ import SwiftUI
 
 @main
 struct TrackMyIllnessApp: App {
+    init() {
+        #if DEBUG
+        // Only ever does anything when launched by Tools/screenshots.sh.
+        ScreenshotMode.seedIfRequested()
+        #endif
+    }
+
     var body: some Scene {
         WindowGroup {
             RootView()

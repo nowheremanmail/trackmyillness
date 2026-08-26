@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Store Connect distribution. Used by Tools/archive.sh. -->
+	<key>method</key>
+	<string>app-store-connect</string>
+	<key>teamID</key>
+	<string>W37STSLM78</string>
+	<!-- Let Xcode create and download the distribution certificate and profile. -->
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<!-- Ship the dSYMs so App Store Connect can symbolicate crash reports. -->
+	<key>uploadSymbols</key>
+	<true/>
+	<!-- No bitcode on iOS any more, and no App Store thinning at export time. -->
+	<key>destination</key>
+	<string>export</string>
+</dict>
+</plist>

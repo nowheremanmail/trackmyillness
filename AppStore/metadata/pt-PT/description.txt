@@ -1,0 +1,23 @@
+O Symptrace é um registo privado da tua doença: o que tomaste, o que sentiste e quando.
+
+DOIS TOQUES PARA REGISTAR
+Escolhe tratamento ou sintoma, toca em qual foi, guarda. A data já é hoje e a hora já é agora, com atalhos para há 30 minutos, 1 hora ou 2 horas quando registas com atraso. Os tratamentos podem levar uma dose, os sintomas uma intensidade de 1 a 5, e ambos uma nota.
+
+CONFIGURADO EM SEGUNDOS
+Escolhe uma doença e o Symptrace cria os tratamentos e sintomas que costumam ser seguidos. Depois muda-lhes o nome, a cor, a ordem ou esconde-os: a partir daí são elementos normais da tua lista. Ou adiciona os teus, um a um.
+
+VÊ COMO VAI
+O histórico agrupa tudo por dia em 7, 30 ou 90 dias, ou desde o início, com um gráfico do que registaste em cada dia e da intensidade média dos sintomas.
+
+FECHA UMA DOENÇA QUANDO ACABA
+Ao fechá-la, o registo inteiro é arquivado - podes continuar a lê-lo e a exportá-lo - e começas limpo para o que vier a seguir. As doenças fechadas ficam na Configuração o tempo que quiseres.
+
+ALGO PARA LEVAR AO MÉDICO
+Exporta qualquer período em PDF: uma secção por dia, uma linha por registo, pronto a imprimir ou enviar. Decides tu se as tuas notas privadas vão dentro.
+
+PRIVADO POR CONCEÇÃO
+Tudo fica no teu dispositivo. Não há conta, nem inscrição, nem análises, nem anúncios, e o teu registo não é enviado para lado nenhum. Ativa o Face ID e a app bloqueia-se assim que sai do ecrã.
+
+O Symptrace é gratuito e de código aberto: github.com/nowheremanmail/trackmyillness
+
+O Symptrace é um diário, não um médico. Não diagnostica nada, não te diz o que tomar e não substitui o aconselhamento de um profissional de saúde.
