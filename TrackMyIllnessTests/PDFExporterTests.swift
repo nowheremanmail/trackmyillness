@@ -82,10 +82,12 @@ struct PDFExporterTests {
             Fixture.entry(kind: .symptom, name: "Pain", date: Fixture.daysAgo(1),
                           severity: 4, note: "A private note that a doctor need not read"),
         ], calendar: calendar)
+        // Pinned: the header carries the generation time, so a minute rolling over
+        // between the two renders would change the byte counts on its own.
         let with = PDFExporter.render(days: days, range: range, title: "Health log",
-                                      includeNotes: true)
+                                      includeNotes: true, generatedAt: Fixture.fixedDate)
         let without = PDFExporter.render(days: days, range: range, title: "Health log",
-                                         includeNotes: false)
+                                         includeNotes: false, generatedAt: Fixture.fixedDate)
         #expect(with.starts(with: Self.pdfMagic))
         #expect(without.starts(with: Self.pdfMagic))
         // The note is the only difference, so the shorter one is the one without it.
@@ -102,9 +104,9 @@ struct PDFExporterTests {
             })
         }
         let with = PDFExporter.render(days: days, range: range, title: "Health log",
-                                      includeNotes: true)
+                                      includeNotes: true, generatedAt: Fixture.fixedDate)
         let without = PDFExporter.render(days: days, range: range, title: "Health log",
-                                         includeNotes: false)
+                                         includeNotes: false, generatedAt: Fixture.fixedDate)
         #expect(with.count == without.count)
     }
 
@@ -113,9 +115,10 @@ struct PDFExporterTests {
         let days = LogDay.group([
             Fixture.entry(kind: .symptom, date: Fixture.daysAgo(1), note: "Worse after walking"),
         ], calendar: calendar)
-        let byDefault = PDFExporter.render(days: days, range: range, title: "Health log")
+        let byDefault = PDFExporter.render(days: days, range: range, title: "Health log",
+                                           generatedAt: Fixture.fixedDate)
         let explicit = PDFExporter.render(days: days, range: range, title: "Health log",
-                                          includeNotes: true)
+                                          includeNotes: true, generatedAt: Fixture.fixedDate)
         #expect(byDefault.count == explicit.count)
     }
 

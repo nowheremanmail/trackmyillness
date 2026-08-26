@@ -36,8 +36,10 @@ enum PDFExporter {
         return "Symptrace \(from) – \(to)"
     }
 
+    /// - Parameter generatedAt: stamped in the header. Injectable so a test can
+    ///   compare two renders without the clock ticking between them.
     static func render(days: [LogDay], range: ClosedRange<Date>, title: String,
-                       includeNotes: Bool = true) -> Data {
+                       includeNotes: Bool = true, generatedAt: Date = .now) -> Data {
         let renderer = UIGraphicsPDFRenderer(bounds: CGRect(origin: .zero, size: pageSize))
         return renderer.pdfData { context in
             let writer = PageWriter(context: context, pageSize: pageSize, margin: margin)
@@ -45,7 +47,7 @@ enum PDFExporter {
             writer.draw(title, font: .systemFont(ofSize: 24, weight: .bold), spacingAfter: 4)
             writer.draw(rangeSubtitle(range), font: .systemFont(ofSize: 12), color: .secondaryLabel,
                         spacingAfter: 2)
-            writer.draw(String(localized: "Generated \(Date.now.formatted(date: .abbreviated, time: .shortened))"),
+            writer.draw(String(localized: "Generated \(generatedAt.formatted(date: .abbreviated, time: .shortened))"),
                         font: .systemFont(ofSize: 10), color: .tertiaryLabel, spacingAfter: 8)
             writer.drawSummary(days: days)
             writer.rule()
