@@ -18,10 +18,11 @@ enum PreviewData {
     static let container: ModelContainer = {
         let container = AppDatabase.previewContainer()
         let context = ModelContext(container)
-        for item in CatalogStore.defaults {
+        let catalog = IllnessTemplate.general.catalogItems
+        for item in catalog {
             context.insert(CatalogItemRecord(item))
         }
-        for entry in sampleEntries(catalog: CatalogStore.defaults) {
+        for entry in sampleEntries(catalog: catalog) {
             context.insert(LogEntryRecord(entry))
         }
         try? context.save()

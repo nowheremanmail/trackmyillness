@@ -29,7 +29,7 @@ enum PDFExporter {
     static func fileName(for range: ClosedRange<Date>) -> String {
         let from = range.lowerBound.formatted(.iso8601.year().month().day().dateSeparator(.dash))
         let to = range.upperBound.formatted(.iso8601.year().month().day().dateSeparator(.dash))
-        return "TrackMyIllness \(from) – \(to)"
+        return "Symptrace \(from) – \(to)"
     }
 
     static func render(days: [LogDay], range: ClosedRange<Date>, title: String) -> Data {

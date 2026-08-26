@@ -73,6 +73,17 @@
     "AI": {
       "shouldTranslate": false
     },
+    "Abdominal pain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor abdominal"
+          }
+        }
+      }
+    },
     "About": {
       "extractionState": "manual",
       "localizations": {
@@ -95,6 +106,17 @@
         }
       }
     },
+    "Add from an illness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir desde una enfermedad"
+          }
+        }
+      }
+    },
     "Add the ones you want to report.": {
       "extractionState": "manual",
       "localizations": {
@@ -102,6 +124,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Añade los que quieras registrar."
+          }
+        }
+      }
+    },
+    "Add to my catalog": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir a mi lista"
           }
         }
       }
@@ -128,6 +161,94 @@
         }
       }
     },
+    "Already added": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya añadido"
+          }
+        }
+      }
+    },
+    "Antacid": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiácido"
+          }
+        }
+      }
+    },
+    "Anti-inflammatory": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiinflamatorio"
+          }
+        }
+      }
+    },
+    "Antihistamine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antihistamínico"
+          }
+        }
+      }
+    },
+    "Antispasmodic": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Antiespasmódico"
+          }
+        }
+      }
+    },
+    "Anxiety": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ansiedad"
+          }
+        }
+      }
+    },
+    "Asthma": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asma"
+          }
+        }
+      }
+    },
+    "Aura": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aura"
+          }
+        }
+      }
+    },
     "Authentication failed.": {
       "extractionState": "manual",
       "localizations": {
@@ -146,6 +267,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Intensidad media de los síntomas"
+          }
+        }
+      }
+    },
+    "Back pain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de espalda"
           }
         }
       }
@@ -172,6 +304,39 @@
         }
       }
     },
+    "Bloating": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hinchazón"
+          }
+        }
+      }
+    },
+    "Blocked nose": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nariz taponada"
+          }
+        }
+      }
+    },
+    "Breathing exercise": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ejercicio de respiración"
+          }
+        }
+      }
+    },
     "Built by": {
       "extractionState": "manual",
       "localizations": {
@@ -194,6 +359,50 @@
         }
       }
     },
+    "Chest tightness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opresión en el pecho"
+          }
+        }
+      }
+    },
+    "Chills": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escalofríos"
+          }
+        }
+      }
+    },
+    "Cold or flu": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resfriado o gripe"
+          }
+        }
+      }
+    },
+    "Cold pack": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compresa fría"
+          }
+        }
+      }
+    },
     "Colour": {
       "extractionState": "manual",
       "localizations": {
@@ -201,6 +410,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Color"
+          }
+        }
+      }
+    },
+    "Constipation": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estreñimiento"
+          }
+        }
+      }
+    },
+    "Cough": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tos"
           }
         }
       }
@@ -234,6 +465,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Día"
+          }
+        }
+      }
+    },
+    "Decongestant": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descongestivo"
           }
         }
       }
@@ -304,6 +546,17 @@
         }
       }
     },
+    "Delete everything and start over": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todo y empezar de nuevo"
+          }
+        }
+      }
+    },
     "Design by": {
       "extractionState": "manual",
       "localizations": {
@@ -322,6 +575,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Detalles"
+          }
+        }
+      }
+    },
+    "Diarrhoea": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diarrea"
+          }
+        }
+      }
+    },
+    "Digestive discomfort": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Molestias digestivas"
           }
         }
       }
@@ -436,6 +711,28 @@
         }
       }
     },
+    "Everything an illness creates is an ordinary treatment or symptom afterwards — rename it, recolour it or remove it as you like.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo lo que crea una enfermedad queda después como un tratamiento o síntoma normal: puedes renombrarlo, cambiarle el color o borrarlo."
+          }
+        }
+      }
+    },
+    "Everything from this illness is already in your catalog.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ya tienes todo lo de esta enfermedad."
+          }
+        }
+      }
+    },
     "Export": {
       "extractionState": "manual",
       "localizations": {
@@ -469,6 +766,17 @@
         }
       }
     },
+    "Eye drops": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colirio"
+          }
+        }
+      }
+    },
     "Fatigue": {
       "extractionState": "manual",
       "localizations": {
@@ -491,6 +799,28 @@
         }
       }
     },
+    "Fibre supplement": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suplemento de fibra"
+          }
+        }
+      }
+    },
+    "Fluids": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Líquidos"
+          }
+        }
+      }
+    },
     "Generated %@": {
       "extractionState": "manual",
       "localizations": {
@@ -502,6 +832,17 @@
         }
       }
     },
+    "Headache": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de cabeza"
+          }
+        }
+      }
+    },
     "Health log": {
       "extractionState": "manual",
       "localizations": {
@@ -509,6 +850,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Registro de salud"
+          }
+        }
+      }
+    },
+    "Heartburn": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ardor de estómago"
+          }
+        }
+      }
+    },
+    "Heat pack": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compresa caliente"
           }
         }
       }
@@ -579,6 +942,39 @@
         }
       }
     },
+    "Irritability": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Irritabilidad"
+          }
+        }
+      }
+    },
+    "Itchy eyes": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Picor de ojos"
+          }
+        }
+      }
+    },
+    "Itchy skin": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Picor de piel"
+          }
+        }
+      }
+    },
     "Keeps past entries intact but stops offering it for new ones.": {
       "extractionState": "manual",
       "localizations": {
@@ -601,6 +997,17 @@
         }
       }
     },
+    "Light sensitivity": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidad a la luz"
+          }
+        }
+      }
+    },
     "Locked": {
       "extractionState": "manual",
       "localizations": {
@@ -608,6 +1015,61 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bloqueado"
+          }
+        }
+      }
+    },
+    "Low mood": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ánimo bajo"
+          }
+        }
+      }
+    },
+    "Low mood or anxiety": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ánimo bajo o ansiedad"
+          }
+        }
+      }
+    },
+    "Lower back pain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor lumbar"
+          }
+        }
+      }
+    },
+    "Medication": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación"
+          }
+        }
+      }
+    },
+    "Migraine": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Migraña"
           }
         }
       }
@@ -645,6 +1107,17 @@
         }
       }
     },
+    "Muscle aches": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor muscular"
+          }
+        }
+      }
+    },
     "Name": {
       "extractionState": "manual",
       "localizations": {
@@ -652,6 +1125,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nombre"
+          }
+        }
+      }
+    },
+    "Nasal spray": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spray nasal"
           }
         }
       }
@@ -667,6 +1151,28 @@
         }
       }
     },
+    "Neck pain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de cuello"
+          }
+        }
+      }
+    },
+    "Neck stiffness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rigidez de cuello"
+          }
+        }
+      }
+    },
     "New": {
       "extractionState": "manual",
       "localizations": {
@@ -674,6 +1180,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nuevo"
+          }
+        }
+      }
+    },
+    "Night waking": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despertares nocturnos"
           }
         }
       }
@@ -722,6 +1239,17 @@
         }
       }
     },
+    "Nothing configured yet. Pick an illness to get the usual treatments and symptoms in one go.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todavía no has configurado nada. Elige una enfermedad y se añaden de golpe los tratamientos y síntomas habituales."
+          }
+        }
+      }
+    },
     "Nothing logged yet": {
       "extractionState": "manual",
       "localizations": {
@@ -746,6 +1274,17 @@
     },
     "Nowhere man": {
       "shouldTranslate": false
+    },
+    "Numbness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hormigueo"
+          }
+        }
+      }
     },
     "Open Settings": {
       "extractionState": "manual",
@@ -802,6 +1341,28 @@
         }
       }
     },
+    "Physiotherapy": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fisioterapia"
+          }
+        }
+      }
+    },
+    "Poor sleep": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dormir mal"
+          }
+        }
+      }
+    },
     "Prefilled when you report this treatment. Leave empty for none.": {
       "extractionState": "manual",
       "localizations": {
@@ -809,6 +1370,28 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se rellena sola al registrar este tratamiento. Déjala vacía si no quieres ninguna."
+          }
+        }
+      }
+    },
+    "Preventer inhaler": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalador preventivo"
+          }
+        }
+      }
+    },
+    "Preventive medication": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación preventiva"
           }
         }
       }
@@ -846,6 +1429,28 @@
         }
       }
     },
+    "Probiotic": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probiótico"
+          }
+        }
+      }
+    },
+    "Radiating pain": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor irradiado"
+          }
+        }
+      }
+    },
     "Rate severity 1–5": {
       "extractionState": "manual",
       "localizations": {
@@ -864,6 +1469,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Con intensidad"
+          }
+        }
+      }
+    },
+    "Reliever inhaler": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inhalador de rescate"
           }
         }
       }
@@ -890,6 +1506,50 @@
         }
       }
     },
+    "Rescue medication": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medicación de rescate"
+          }
+        }
+      }
+    },
+    "Reset the app": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer la app"
+          }
+        }
+      }
+    },
+    "Rest": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descanso"
+          }
+        }
+      }
+    },
+    "Rest in a dark room": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Descansar a oscuras"
+          }
+        }
+      }
+    },
     "Restore": {
       "extractionState": "manual",
       "localizations": {
@@ -897,6 +1557,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurar"
+          }
+        }
+      }
+    },
+    "Runny nose": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goteo nasal"
           }
         }
       }
@@ -919,6 +1590,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ guardado"
+          }
+        }
+      }
+    },
+    "Seasonal allergy": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alergia estacional"
           }
         }
       }
@@ -989,6 +1671,17 @@
         }
       }
     },
+    "Shortness of breath": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta de aire"
+          }
+        }
+      }
+    },
     "Show": {
       "extractionState": "manual",
       "localizations": {
@@ -996,6 +1689,83 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mostrar"
+          }
+        }
+      }
+    },
+    "Sneezing": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estornudos"
+          }
+        }
+      }
+    },
+    "Something else": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otra cosa"
+          }
+        }
+      }
+    },
+    "Sore throat": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dolor de garganta"
+          }
+        }
+      }
+    },
+    "Sound sensitivity": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sensibilidad al ruido"
+          }
+        }
+      }
+    },
+    "Start over?": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Empezar de nuevo?"
+          }
+        }
+      }
+    },
+    "Stiffness": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rigidez"
+          }
+        }
+      }
+    },
+    "Stretching": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estiramientos"
           }
         }
       }
@@ -1033,6 +1803,9 @@
         }
       }
     },
+    "Symptrace": {
+      "shouldTranslate": false
+    },
     "The app locks when it goes to the background and asks to unlock the next time you open it.": {
       "extractionState": "manual",
       "localizations": {
@@ -1040,6 +1813,50 @@
           "stringUnit": {
             "state": "translated",
             "value": "La app se bloquea al pasar a segundo plano y pide desbloquearla la próxima vez que la abras."
+          }
+        }
+      }
+    },
+    "The ones you already have are left untouched.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los que ya tienes se quedan como están."
+          }
+        }
+      }
+    },
+    "Therapy session": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión de terapia"
+          }
+        }
+      }
+    },
+    "This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se borran todas las entradas y todos los tratamientos y síntomas que hayas configurado, y podrás elegir una enfermedad otra vez. Los ajustes de privacidad se mantienen. No se puede deshacer."
+          }
+        }
+      }
+    },
+    "Throat lozenge": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pastilla para la garganta"
           }
         }
       }
@@ -1065,9 +1882,6 @@
           }
         }
       }
-    },
-    "TrackMyIllness": {
-      "shouldTranslate": false
     },
     "Treatment": {
       "extractionState": "manual",
@@ -1109,6 +1923,17 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tratamientos: %1$lld · Síntomas: %2$lld · Días: %3$lld"
+          }
+        }
+      }
+    },
+    "Trouble concentrating": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dificultad para concentrarse"
           }
         }
       }
@@ -1190,6 +2015,17 @@
         }
       }
     },
+    "Walk": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paseo"
+          }
+        }
+      }
+    },
     "What are you reporting?": {
       "extractionState": "manual",
       "localizations": {
@@ -1212,6 +2048,17 @@
         }
       }
     },
+    "Wheezing": {
+      "extractionState": "manual",
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sibilancias"
+          }
+        }
+      }
+    },
     "When": {
       "extractionState": "manual",
       "localizations": {
@@ -1223,13 +2070,13 @@
         }
       }
     },
-    "You haven't configured any yet.": {
+    "You haven't configured any yet. Settings can add the usual ones for an illness in one go.": {
       "extractionState": "manual",
       "localizations": {
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Todavía no has configurado ninguno."
+            "value": "Todavía no has configurado ninguno. En Configuración puedes añadir de golpe los habituales de una enfermedad."
           }
         }
       }

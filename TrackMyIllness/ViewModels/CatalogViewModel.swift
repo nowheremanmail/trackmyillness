@@ -31,6 +31,10 @@ final class CatalogViewModel {
         kind == .treatment ? treatments : symptoms
     }
 
+    /// True when there's nothing to report yet — a fresh install, since the app no
+    /// longer creates a starter catalog.
+    var isEmpty: Bool { treatments.isEmpty && symptoms.isEmpty }
+
     /// A blank item ready for the editor, pre-slotted at the end of its list.
     func newItem(of kind: EntryKind) -> CatalogItem {
         CatalogItem(kind: kind,
@@ -77,8 +81,36 @@ final class CatalogViewModel {
         refresh()
     }
 
-    func seedDefaultsIfEmpty() {
-        store.seedDefaultsIfEmpty()
+    // MARK: Predefined illnesses
+
+    /// Creates whatever the illness offers that isn't configured yet. Returns how
+    /// many items were created, so the picker can confirm what happened.
+    @discardableResult
+    func add(_ illness: IllnessTemplate) -> Int {
+        let added = store.add(illness)
+        if added > 0 { refresh() }
+        return added
+    }
+
+    /// Whether the catalog already has an item by this name, so the picker can show
+    /// what a pick would really create rather than promising the whole list.
+    func isConfigured(_ item: IllnessItem, of kind: EntryKind) -> Bool {
+        let key = item.name.catalogMatchKey
+        return items(of: kind).contains { $0.name.catalogMatchKey == key }
+    }
+
+    /// Throws the whole catalog away, so the user can start from a template again.
+    /// Entries are the entry store's business — Settings clears both.
+    func reset() {
+        store.deleteAll()
         refresh()
+    }
+
+    /// How many of the illness's items are still missing. Zero means there's
+    /// nothing left for "Add" to do.
+    func pendingCount(in illness: IllnessTemplate) -> Int {
+        EntryKind.allCases.reduce(0) { total, kind in
+            total + illness.items(of: kind).filter { !isConfigured($0, of: kind) }.count
+        }
     }
 }

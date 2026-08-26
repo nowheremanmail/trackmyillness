@@ -46,11 +46,16 @@ final class LogEntryViewModel {
 
     // MARK: Data
 
+    /// Ordered most-reported first — see `reloadItems()`.
     private(set) var items: [CatalogItem] = []
     /// Everything logged today, newest first — the confirmation that a tap landed.
     private(set) var today: [LogEntry] = []
     /// Set after a save so the view can show a brief confirmation and offer undo.
     private(set) var lastSavedEntry: LogEntry?
+
+    /// How often each item has been reported, keyed by item id. Read once per
+    /// visit so the chips can't rearrange under the user's finger mid-entry.
+    private var usage: [String: Int] = [:]
 
     private let catalog: CatalogStoring
     private let entries: EntryStoring
@@ -72,18 +77,35 @@ final class LogEntryViewModel {
 
     // MARK: Loading
 
-    /// Called when the tab appears: the catalog may have changed in Settings.
+    /// Called when the tab appears: the catalog may have changed in Settings, and
+    /// this is the moment to re-rank the chips by how often they're used.
     func refresh() {
+        usage = entries.usageCounts()
         reloadItems()
         reloadToday()
     }
 
     private func reloadItems() {
-        items = catalog.items(of: kind)
+        items = ranked(catalog.items(of: kind))
         // A selection that no longer exists (archived/deleted in Settings) must go.
         if let id = selectedItemID, !items.contains(where: { $0.id == id }) {
             selectedItemID = nil
         }
+    }
+
+    /// Most-reported first, so the chip you want is usually in the top row. Items
+    /// used equally often — including everything in a fresh catalog — keep the
+    /// order configured in Settings, which is why the index is the tie-breaker.
+    private func ranked(_ items: [CatalogItem]) -> [CatalogItem] {
+        items.enumerated()
+            .sorted { left, right in
+                let leftCount = usage[left.element.id] ?? 0
+                let rightCount = usage[right.element.id] ?? 0
+                return leftCount == rightCount
+                    ? left.offset < right.offset
+                    : leftCount > rightCount
+            }
+            .map(\.element)
     }
 
     private func reloadToday() {

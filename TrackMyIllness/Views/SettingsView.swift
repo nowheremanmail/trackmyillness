@@ -15,6 +15,10 @@ struct SettingsView: View {
     @State private var catalog: CatalogViewModel
     @State private var showingExport = false
     @State private var confirmingDeleteAll = false
+    @State private var confirmingReset = false
+    /// Shown straight after a reset, so "start over" lands on the template list
+    /// rather than on an empty screen.
+    @State private var showingIllnessPicker = false
 
     private let entries: EntryStoring
 
@@ -29,7 +33,7 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("What you can report") {
+                Section {
                     ForEach(EntryKind.allCases) { kind in
                         NavigationLink {
                             CatalogListView(kind: kind, model: catalog)
@@ -40,6 +44,18 @@ struct SettingsView: View {
                                 Label(kind.pluralTitle, systemImage: kind.systemImage)
                             }
                         }
+                    }
+
+                    NavigationLink {
+                        IllnessPickerView(model: catalog)
+                    } label: {
+                        Label("Add from an illness", systemImage: "list.bullet.clipboard")
+                    }
+                } header: {
+                    Text("What you can report")
+                } footer: {
+                    if catalog.isEmpty {
+                        Text("Nothing configured yet. Pick an illness to get the usual treatments and symptoms in one go.")
                     }
                 }
 
@@ -83,6 +99,11 @@ struct SettingsView: View {
                     } label: {
                         Label("Delete all entries", systemImage: "trash")
                     }
+                    Button(role: .destructive) {
+                        confirmingReset = true
+                    } label: {
+                        Label("Reset the app", systemImage: "arrow.counterclockwise")
+                    }
                 } footer: {
                     Text("Your data stays on this device. Storage: \(AppDatabase.status)")
                 }
@@ -98,8 +119,34 @@ struct SettingsView: View {
             } message: {
                 Text("Your configured treatments and symptoms are kept. This can't be undone.")
             }
+            .confirmationDialog("Start over?", isPresented: $confirmingReset,
+                                titleVisibility: .visible) {
+                Button("Delete everything and start over", role: .destructive) { reset() }
+                Button("Cancel", role: .cancel) {}
+            } message: {
+                Text("This deletes every entry and every treatment and symptom you've configured, then lets you pick an illness again. Your privacy settings are kept. This can't be undone.")
+            }
+            .sheet(isPresented: $showingIllnessPicker) {
+                NavigationStack {
+                    IllnessPickerView(model: catalog)
+                        .toolbar {
+                            ToolbarItem(placement: .topBarLeading) {
+                                Button("Done") { showingIllnessPicker = false }
+                            }
+                        }
+                }
+            }
         }
         .onAppear { catalog.refresh() }
+    }
+
+    /// Back to a fresh install: no entries, no catalog, and the template list open.
+    /// The Face ID preference is deliberately left alone — silently unlocking the
+    /// app would be the opposite of what that setting is for.
+    private func reset() {
+        entries.deleteAll()
+        catalog.reset()
+        showingIllnessPicker = true
     }
 }
 

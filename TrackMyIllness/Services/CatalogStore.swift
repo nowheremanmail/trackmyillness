@@ -18,8 +18,12 @@ protocol CatalogStoring {
     func delete(id: String)
     /// Rewrites `sortIndex` so the given order sticks.
     func reorder(_ items: [CatalogItem])
-    /// Populates a first-run catalog so the entry form isn't empty. No-op afterwards.
-    func seedDefaultsIfEmpty()
+    /// Creates the items of a predefined illness that aren't configured yet, and
+    /// returns how many were created.
+    @discardableResult
+    func add(_ illness: IllnessTemplate) -> Int
+    /// Removes every configured treatment and symptom. Destructive.
+    func deleteAll()
 }
 
 extension CatalogStoring {
@@ -68,13 +72,36 @@ final class CatalogStore: CatalogStoring {
         try? context.save()
     }
 
-    func seedDefaultsIfEmpty() {
-        var descriptor = FetchDescriptor<CatalogItemRecord>()
-        descriptor.fetchLimit = 1
-        guard ((try? context.fetch(descriptor)) ?? []).isEmpty else { return }
-        for item in CatalogStore.defaults {
-            context.insert(CatalogItemRecord(item))
+    /// Appends whatever the illness offers that isn't configured yet, matching on
+    /// name within a kind. Picking two illnesses that share a symptom therefore
+    /// creates it once, and picking the same illness twice creates nothing the
+    /// second time — the first copy keeps whatever the user has since renamed,
+    /// recoloured or hidden it to.
+    @discardableResult
+    func add(_ illness: IllnessTemplate) -> Int {
+        var added = 0
+        for kind in EntryKind.allCases {
+            // Archived items count as configured: re-creating one would put a
+            // duplicate in the entry form the user had deliberately cleared out.
+            let existing = items(of: kind, includeArchived: true)
+            var taken = Set(existing.map { $0.name.catalogMatchKey })
+            var nextIndex = (existing.map(\.sortIndex).max() ?? -1) + 1
+
+            for template in illness.items(of: kind) {
+                let key = template.name.catalogMatchKey
+                guard !key.isEmpty, taken.insert(key).inserted else { continue }
+                context.insert(CatalogItemRecord(
+                    template.catalogItem(kind: kind, sortIndex: nextIndex)))
+                nextIndex += 1
+                added += 1
+            }
         }
+        if added > 0 { try? context.save() }
+        return added
+    }
+
+    func deleteAll() {
+        try? context.delete(model: CatalogItemRecord.self)
         try? context.save()
     }
 
@@ -83,24 +110,4 @@ final class CatalogStore: CatalogStoring {
         descriptor.fetchLimit = 1
         return (try? context.fetch(descriptor))?.first
     }
-
-    /// A generic starter set — everyone edits these in Settings anyway, so they're
-    /// deliberately illness-agnostic.
-    static let defaults: [CatalogItem] = [
-        CatalogItem(kind: .treatment, name: String(localized: "Morning medication"),
-                    symbolName: "sunrise.fill", colorName: ItemColor.orange.rawValue, sortIndex: 0),
-        CatalogItem(kind: .treatment, name: String(localized: "Evening medication"),
-                    symbolName: "moon.stars.fill", colorName: ItemColor.indigo.rawValue, sortIndex: 1),
-        CatalogItem(kind: .treatment, name: String(localized: "Painkiller"),
-                    symbolName: "pills.fill", colorName: ItemColor.teal.rawValue,
-                    defaultDose: "1", sortIndex: 2),
-        CatalogItem(kind: .symptom, name: String(localized: "Pain"),
-                    symbolName: "bolt.fill", colorName: ItemColor.red.rawValue, sortIndex: 0),
-        CatalogItem(kind: .symptom, name: String(localized: "Fatigue"),
-                    symbolName: "zzz", colorName: ItemColor.purple.rawValue, sortIndex: 1),
-        CatalogItem(kind: .symptom, name: String(localized: "Nausea"),
-                    symbolName: "drop.fill", colorName: ItemColor.green.rawValue, sortIndex: 2),
-        CatalogItem(kind: .symptom, name: String(localized: "Fever"),
-                    symbolName: "thermometer.high", colorName: ItemColor.pink.rawValue, sortIndex: 3),
-    ]
 }

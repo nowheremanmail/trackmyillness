@@ -8,7 +8,18 @@
 
 /* Begin PBXFileReference section */
 		7A0000052F00000100000001 /* TrackMyIllness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyIllness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000112F00000100000001 /* TrackMyIllnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyIllnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXContainerItemProxy section */
+		7A00001B2F00000100000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0000012F00000100000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0000042F00000100000001;
+			remoteInfo = TrackMyIllness;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		7A0000072F00000100000001 /* Exceptions for "TrackMyIllness" folder in "TrackMyIllness" target */ = {
@@ -29,10 +40,22 @@
 			path = TrackMyIllness;
 			sourceTree = "<group>";
 		};
+		7A0000122F00000100000001 /* TrackMyIllnessTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrackMyIllnessTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7A0000092F00000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000152F00000100000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0000062F00000100000001 /* TrackMyIllness */,
+				7A0000122F00000100000001 /* TrackMyIllnessTests */,
 				7A0000032F00000100000001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0000052F00000100000001 /* TrackMyIllness.app */,
+				7A0000112F00000100000001 /* TrackMyIllnessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +108,29 @@
 			productReference = 7A0000052F00000100000001 /* TrackMyIllness.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7A0000132F00000100000001 /* TrackMyIllnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0000172F00000100000001 /* Build configuration list for PBXNativeTarget "TrackMyIllnessTests" */;
+			buildPhases = (
+				7A0000142F00000100000001 /* Sources */,
+				7A0000152F00000100000001 /* Frameworks */,
+				7A0000162F00000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A00001A2F00000100000001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7A0000122F00000100000001 /* TrackMyIllnessTests */,
+			);
+			name = TrackMyIllnessTests;
+			packageProductDependencies = (
+			);
+			productName = TrackMyIllnessTests;
+			productReference = 7A0000112F00000100000001 /* TrackMyIllnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +143,10 @@
 				TargetAttributes = {
 					7A0000042F00000100000001 = {
 						CreatedOnToolsVersion = 26.6;
+					};
+					7A0000132F00000100000001 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 7A0000042F00000100000001;
 					};
 				};
 			};
@@ -114,12 +166,28 @@
 			projectRoot = "";
 			targets = (
 				7A0000042F00000100000001 /* TrackMyIllness */,
+				7A0000132F00000100000001 /* TrackMyIllnessTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXTargetDependency section */
+		7A00001A2F00000100000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0000042F00000100000001 /* TrackMyIllness */;
+			targetProxy = 7A00001B2F00000100000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7A00000A2F00000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000162F00000100000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,6 +198,13 @@
 
 /* Begin PBXSourcesBuildPhase section */
 		7A0000082F00000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000142F00000100000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,7 +319,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrackMyIllness/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrackMyIllness;
+				INFOPLIST_KEY_CFBundleDisplayName = Symptrace;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID unlocks the app so your health log stays private.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +359,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrackMyIllness/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TrackMyIllness;
+				INFOPLIST_KEY_CFBundleDisplayName = Symptrace;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID unlocks the app so your health log stays private.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,6 +387,52 @@
 			};
 			name = Release;
 		};
+		7A0000182F00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W37STSLM78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.nowhereman.ios.trackmyillness.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyIllness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyIllness";
+			};
+			name = Debug;
+		};
+		7A0000192F00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W37STSLM78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.nowhereman.ios.trackmyillness.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyIllness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrackMyIllness";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +450,15 @@
 			buildConfigurations = (
 				7A00000F2F00000100000001 /* Debug */,
 				7A0000102F00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0000172F00000100000001 /* Build configuration list for PBXNativeTarget "TrackMyIllnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0000182F00000100000001 /* Debug */,
+				7A0000192F00000100000001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

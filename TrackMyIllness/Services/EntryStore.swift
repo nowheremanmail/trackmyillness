@@ -14,6 +14,9 @@ protocol EntryStoring {
     func entries(in range: ClosedRange<Date>) -> [LogEntry]
     /// The most recent entries, newest first.
     func recent(limit: Int) -> [LogEntry]
+    /// How many times each catalog item has been reported, keyed by item id.
+    /// Items never reported are absent rather than zero.
+    func usageCounts() -> [String: Int]
     func add(_ entry: LogEntry)
     func update(_ entry: LogEntry)
     func delete(id: String)
@@ -42,6 +45,15 @@ final class EntryStore: EntryStoring {
             sortBy: [SortDescriptor(\.date, order: .reverse)])
         descriptor.fetchLimit = limit
         return ((try? context.fetch(descriptor)) ?? []).map(\.value)
+    }
+
+    /// Counts every entry ever logged: the Report tab puts the items you reach for
+    /// most at the top, and "most" only settles down over the whole history.
+    func usageCounts() -> [String: Int] {
+        let records = (try? context.fetch(FetchDescriptor<LogEntryRecord>())) ?? []
+        return records.reduce(into: [:]) { counts, record in
+            counts[record.itemID, default: 0] += 1
+        }
     }
 
     func add(_ entry: LogEntry) {

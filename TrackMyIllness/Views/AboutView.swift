@@ -12,8 +12,9 @@ struct AboutView: View {
     @State private var active = false
 
     private let supportURL = URL(string: "mailto:info@nowhereman.eu")!
-    // TODO: point this at the real privacy policy page.
-    private let privacyURL = URL(string: "https://nowhereman.eu/trackmyillness/privacy")!
+    /// The project wiki, which is where the policy is published and kept current.
+    private let privacyURL = URL(
+        string: "https://github.com/nowheremanmail/trackmyillness/wiki/Privacy-Policy")!
 
     private var version: String {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0"
@@ -26,12 +27,19 @@ struct AboutView: View {
         VStack(spacing: 0) {
             // App identity.
             VStack(spacing: 12) {
-                Image(systemName: "heart.text.square.fill")
-                    .font(.system(size: 46))
-                    .foregroundStyle(.white)
+                // The real icon artwork, not a stand-in glyph. iOS can't load an
+                // app icon out of the asset catalog by name, so About gets its own
+                // image — Tools/MakeIcon.swift generates both from one source.
+                Image(.appIconArt)
+                    .resizable()
                     .frame(width: 88, height: 88)
-                    .background(Color.accentColor, in: RoundedRectangle(cornerRadius: 20))
-                Text("TrackMyIllness")
+                    // 22.4% of the side is the proportion iOS uses for the
+                    // home-screen mask; `.continuous` gets the squircle rather
+                    // than a plain rounded rectangle.
+                    .clipShape(RoundedRectangle(cornerRadius: 88 * 0.224, style: .continuous))
+                    .shadow(color: .black.opacity(0.18), radius: 6, y: 3)
+                    .accessibilityHidden(true)
+                Text("Symptrace")
                     .font(.title2.weight(.semibold))
                 Text("Version \(version) (\(build))")
                     .font(.caption)

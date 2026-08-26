@@ -82,7 +82,7 @@ struct LogView: View {
             ContentUnavailableView {
                 Label(model.kind.pluralTitle, systemImage: model.kind.systemImage)
             } description: {
-                Text("You haven't configured any yet.")
+                Text("You haven't configured any yet. Settings can add the usual ones for an illness in one go.")
             } actions: {
                 Button("Open Settings", action: openSettings)
                     .buttonStyle(.borderedProminent)
