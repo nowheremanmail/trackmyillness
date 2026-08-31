@@ -112,7 +112,15 @@ Transporter, or archive from Xcode and use Organizer → Distribute App.
 ## 9. Before you press Submit
 
 - Bump `MARKETING_VERSION` / `CURRENT_PROJECT_VERSION` for every new upload — App
-  Store Connect rejects a build number it has already seen.
+  Store Connect rejects a build number it has already seen. Build 1 was rejected,
+  so the project is now on 1.0 (2).
+- `Tools/archive.sh` checks the purpose strings in the archive before uploading,
+  in every language. Version 1.0 build 1 was rejected because
+  `en.lproj/InfoPlist.strings` carried
+  `NSFaceIDUsageDescription = "NSFaceIDUsageDescription"` — a string catalog with
+  no entry for its own source language compiles the key in as its own value, and a
+  `.lproj` overrides the base `Info.plist`. `PurposeStringTests` covers the same
+  ground from the test suite.
 - Check the app on a real device once. The simulator does not exercise Face ID
   properly, and that is the one feature a reviewer is likely to try.
 - Export compliance is already answered: `ITSAppUsesNonExemptEncryption` is

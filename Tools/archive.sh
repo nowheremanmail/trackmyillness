@@ -59,6 +59,34 @@ IPA=$(find "$EXPORT_DIR" -name '*.ipa' | head -1)
 [ -n "$IPA" ] || { echo "!! no .ipa produced"; exit 1; }
 echo "==> $IPA"
 
+# App Review rejected 1.0 because en.lproj carried
+# NSFaceIDUsageDescription = "NSFaceIDUsageDescription": a string catalog with no
+# entry for its own source language compiles the key in as its own value, and a
+# .lproj overrides the base Info.plist. Check the archive rather than the source,
+# and check every language — an automated rejection costs a review cycle.
+echo "==> Checking the purpose strings in the archive"
+APP_DIR=$(find "$ARCHIVE/Products/Applications" -maxdepth 1 -name '*.app' | head -1)
+bad=0
+for key in $(/usr/libexec/PlistBuddy -c Print "$APP_DIR/Info.plist" \
+             | awk -F' = ' '/UsageDescription = /{gsub(/^ +/,"",$1); print $1}'); do
+  base=$(/usr/libexec/PlistBuddy -c "Print :$key" "$APP_DIR/Info.plist" 2>/dev/null || echo "")
+  if [ "$base" = "$key" ] || [ ${#base} -lt 30 ]; then
+    echo "!! base Info.plist: $key is placeholder or too short: '$base'"
+    bad=1
+  fi
+  for lproj in "$APP_DIR"/*.lproj; do
+    [ -f "$lproj/InfoPlist.strings" ] || continue
+    value=$(plutil -extract "$key" raw -o - "$lproj/InfoPlist.strings" 2>/dev/null || echo "")
+    [ -n "$value" ] || continue
+    if [ "$value" = "$key" ] || [ ${#value} -lt 30 ]; then
+      echo "!! $(basename "$lproj"): $key is placeholder or too short: '$value'"
+      bad=1
+    fi
+  done
+done
+[ "$bad" -eq 0 ] || { echo "!! refusing to upload — App Review rejects these automatically"; exit 1; }
+echo "    all purpose strings look real in every language"
+
 if [ "$UPLOAD" = true ]; then
   : "${ASC_KEY_ID:?set ASC_KEY_ID (see the header of this script)}"
   : "${ASC_ISSUER_ID:?set ASC_ISSUER_ID (see the header of this script)}"

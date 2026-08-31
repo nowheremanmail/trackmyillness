@@ -1,131 +1,147 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "CFBundleDisplayName" : {
-      "comment" : "Bundle display name",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "ca" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Symptrace"
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Symptrace"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Symptrace"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Symptrace"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Symptrace"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Symptrace"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         }
       }
     },
-    "CFBundleName" : {
-      "comment" : "Bundle name",
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "ca" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Symptrace"
+    "CFBundleName": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Symptrace"
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "TrackMyIllness"
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Symptrace"
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Symptrace"
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Symptrace"
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace"
           }
         }
       }
     },
-    "NSFaceIDUsageDescription" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ca" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Face ID desbloca l'app perquè el teu registre de salut continuï sent privat."
+    "NSFaceIDUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "ca": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace demana el Face ID abans de mostrar el teu registre de salut, perquè els tractaments i símptomes que has anotat continuïn sent privats si una altra persona agafa el teu dispositiu."
           }
         },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Face ID entsperrt die App, damit dein Gesundheitsprotokoll privat bleibt."
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace fragt nach Face ID, bevor es dein Gesundheitsprotokoll anzeigt, damit die erfassten Behandlungen und Symptome privat bleiben, wenn jemand anderes dein Gerät in die Hand nimmt."
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Face ID desbloquea la app para que tu registro de salud siga siendo privado."
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace asks for Face ID before it shows your health log, so the treatments and symptoms you have recorded stay private if someone else picks up your device."
           }
         },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Face ID déverrouille l'app pour que votre journal de santé reste privé."
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace pide Face ID antes de mostrar tu registro de salud, para que los tratamientos y síntomas que has anotado sigan siendo privados si otra persona coge tu dispositivo."
           }
         },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Face ID sblocca l'app per mantenere privato il tuo diario di salute."
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace demande Face ID avant d'afficher votre journal de santé, afin que les traitements et symptômes que vous avez notés restent privés si quelqu'un d'autre prend votre appareil."
           }
         },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O Face ID desbloqueia a app para que o teu registo de saúde continue privado."
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Symptrace chiede il Face ID prima di mostrare il tuo diario di salute, così i trattamenti e i sintomi che hai registrato restano privati se qualcun altro prende il tuo dispositivo."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O Symptrace pede o Face ID antes de mostrar o teu registo de saúde, para que os tratamentos e sintomas que registaste continuem privados se outra pessoa pegar no teu dispositivo."
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }
