@@ -16,5 +16,13 @@
 	<!-- No bitcode on iOS any more, and no App Store thinning at export time. -->
 	<key>destination</key>
 	<string>export</string>
+	<!-- Off, so the .ipa carries exactly the build number in project.pbxproj.
+	     For App Store distribution this defaults to true, and Xcode silently
+	     rewrites the build number during export — the archive said 3 and the
+	     exported .ipa said 4, which would make the repository and any release
+	     note disagree with the store forever. Bumping is a deliberate step; see
+	     AppStore/CHECKLIST.md. -->
+	<key>manageAppVersionAndBuildNumber</key>
+	<false/>
 </dict>
 </plist>

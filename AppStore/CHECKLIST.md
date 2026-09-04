@@ -112,8 +112,14 @@ Transporter, or archive from Xcode and use Organizer → Distribute App.
 ## 9. Before you press Submit
 
 - Bump `MARKETING_VERSION` / `CURRENT_PROJECT_VERSION` for every new upload — App
-  Store Connect rejects a build number it has already seen. Build 1 was rejected,
-  so the project is now on 1.0 (2).
+  Store Connect rejects a build number it has already seen. Build 1 was rejected;
+  the project is now on 1.0 (3).
+- Bumping is manual on purpose. `ExportOptions.plist` sets
+  `manageAppVersionAndBuildNumber` to `false`, because it defaults to `true` for
+  App Store distribution and Xcode then rewrites the build number during export —
+  an archive built as 3 exported as 4, leaving the repository and the store
+  disagreeing about what shipped. With it off, the `.ipa` carries exactly the
+  number in `project.pbxproj`, and it is on you to raise it.
 - `Tools/archive.sh` checks the purpose strings in the archive before uploading,
   in every language. Version 1.0 build 1 was rejected because
   `en.lproj/InfoPlist.strings` carried
