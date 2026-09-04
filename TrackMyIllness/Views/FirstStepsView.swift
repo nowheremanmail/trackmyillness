@@ -19,6 +19,15 @@ struct FirstStepsView: View {
     var finish: () -> Void = {}
 
     @State private var catalog: CatalogViewModel
+    /// Value-based, so adding an illness can empty it and land the reader back
+    /// here. `dismiss()` inside the pushed screens only pops one level, which is
+    /// what used to strand them on the illness list.
+    @State private var path: [Route] = []
+    /// How many items the last add created, so returning here shows that it worked
+    /// rather than looking like nothing happened.
+    @State private var addedCount: Int?
+
+    private enum Route: Hashable { case picker }
 
     init(finish: @escaping () -> Void = {}, catalog: CatalogViewModel? = nil) {
         self.finish = finish
@@ -48,10 +57,15 @@ struct FirstStepsView: View {
     ]
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 VStack(spacing: 28) {
                     header
+                    // Above the steps, not below them: under the fold it needed a
+                    // scroll to be seen, which is no confirmation at all.
+                    if let addedCount, addedCount > 0 {
+                        confirmation(addedCount)
+                    }
                     VStack(alignment: .leading, spacing: 22) {
                         ForEach(steps) { step in
                             row(step)
@@ -63,6 +77,13 @@ struct FirstStepsView: View {
                 .padding(.top, 24)
                 .padding(.bottom, 16)
             }
+            .navigationDestination(for: Route.self) { _ in
+                IllnessPickerView(model: catalog) { added in
+                    addedCount = added
+                    // Back to the root of this stack, however deep the reader got.
+                    path.removeAll()
+                }
+            }
             .safeAreaInset(edge: .bottom) { actions }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -71,6 +92,7 @@ struct FirstStepsView: View {
                 }
             }
         }
+        .animation(.snappy, value: addedCount)
         .onAppear { catalog.refresh() }
     }
 
@@ -110,12 +132,31 @@ struct FirstStepsView: View {
         }
     }
 
+    private func confirmation(_ count: Int) -> some View {
+        HStack(spacing: 12) {
+            Image(systemName: "checkmark.circle.fill")
+                .font(.system(size: 20))
+                .foregroundStyle(.green)
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Ready to report")
+                    .font(.subheadline.weight(.semibold))
+                // A bare count rather than a plural sentence: it reads correctly
+                // for one or many in every language the app ships.
+                Text("Added to your list: \(count)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(14)
+        .background(Color.green.opacity(0.12), in: RoundedRectangle(cornerRadius: 14))
+        .transition(.opacity.combined(with: .scale(scale: 0.96)))
+    }
+
     private var actions: some View {
         VStack(spacing: 8) {
-            NavigationLink {
-                IllnessPickerView(model: catalog)
-            } label: {
-                Text("Choose an illness")
+            NavigationLink(value: Route.picker) {
+                Text(catalog.isEmpty ? "Choose an illness" : "Add another illness")
                     .font(.headline)
                     .frame(maxWidth: .infinity, minHeight: 30)
             }

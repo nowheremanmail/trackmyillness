@@ -13,6 +13,10 @@ struct RootView: View {
     @State private var selection: Tab = .report
     @State private var lock: AppLockViewModel
     @State private var showingFirstSteps = false
+    /// Bumped when the walkthrough closes. The Report tab is behind a full-screen
+    /// cover, not off screen, so it never gets a fresh onAppear to reload from —
+    /// without this it stays on its empty state after First steps fills the list.
+    @State private var catalogRevision = 0
     @AppStorage(AppSettings.hasSeenFirstStepsKey) private var hasSeenFirstSteps = false
     @Environment(\.scenePhase) private var scenePhase
 
@@ -22,7 +26,7 @@ struct RootView: View {
 
     var body: some View {
         TabView(selection: $selection) {
-            LogView(openSettings: { selection = .settings })
+            LogView(openSettings: { selection = .settings }, refreshToken: catalogRevision)
                 .tabItem { Label("Report", systemImage: "plus.circle.fill") }
                 .tag(Tab.report)
 
@@ -43,7 +47,7 @@ struct RootView: View {
             }
         }
         .animation(.easeInOut(duration: 0.2), value: lock.isLocked)
-        .fullScreenCover(isPresented: $showingFirstSteps) {
+        .fullScreenCover(isPresented: $showingFirstSteps, onDismiss: { catalogRevision += 1 }) {
             FirstStepsView {
                 hasSeenFirstSteps = true
                 showingFirstSteps = false

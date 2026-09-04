@@ -15,13 +15,15 @@ import SwiftUI
 
 struct IllnessPickerView: View {
     @Bindable var model: CatalogViewModel
+    /// Passed down to the detail screens — see `IllnessDetailView.onAdd`.
+    var onAdd: ((Int) -> Void)?
 
     var body: some View {
         List {
             Section {
                 ForEach(IllnessTemplate.all) { illness in
                     NavigationLink {
-                        IllnessDetailView(illness: illness, model: model)
+                        IllnessDetailView(illness: illness, model: model, onAdd: onAdd)
                     } label: {
                         row(illness)
                     }
@@ -32,7 +34,7 @@ struct IllnessPickerView: View {
 
             Section {
                 NavigationLink {
-                    RemoteIllnessListView(model: model)
+                    RemoteIllnessListView(model: model, onAdd: onAdd)
                 } label: {
                     Label("More illnesses", systemImage: "arrow.down.circle")
                 }
@@ -87,6 +89,10 @@ struct IllnessPickerView: View {
 struct IllnessDetailView: View {
     let illness: IllnessTemplate
     @Bindable var model: CatalogViewModel
+    /// Called with how many items were created. When nil, adding just pops this
+    /// screen — which is what Settings wants, so you can add a second illness
+    /// straight after. First steps passes one so it can return to its own root.
+    var onAdd: ((Int) -> Void)?
 
     @Environment(\.dismiss) private var dismiss
 
@@ -104,25 +110,48 @@ struct IllnessDetailView: View {
                 }
             }
 
-            Section {
-                Button {
-                    model.add(illness)
+        }
+        .navigationTitle(Text(illness.name))
+        .navigationBarTitleDisplayMode(.inline)
+        // Pinned rather than a last section: an illness with twenty items pushed
+        // the only action off the bottom of the screen, so it had to be scrolled
+        // for to be found at all.
+        .safeAreaInset(edge: .bottom) { addBar }
+    }
+
+    private var addBar: some View {
+        VStack(spacing: 6) {
+            Button {
+                let added = model.add(illness)
+                if let onAdd {
+                    onAdd(added)
+                } else {
                     dismiss()
-                } label: {
-                    Label("Add to my catalog", systemImage: "plus.circle.fill")
-                        .frame(maxWidth: .infinity)
                 }
-                .disabled(pending == 0)
-            } footer: {
+            } label: {
+                Label("Add to my catalog", systemImage: "plus.circle.fill")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity, minHeight: 30)
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            .disabled(pending == 0)
+
+            Group {
                 if pending == 0 {
                     Text("Everything from this illness is already in your catalog.")
                 } else if pending < illness.itemCount {
                     Text("The ones you already have are left untouched.")
                 }
             }
+            .font(.caption)
+            .foregroundStyle(.secondary)
+            .multilineTextAlignment(.center)
         }
-        .navigationTitle(Text(illness.name))
-        .navigationBarTitleDisplayMode(.inline)
+        .padding(.horizontal, 20)
+        .padding(.top, 10)
+        .padding(.bottom, 6)
+        .background(.regularMaterial)
     }
 
     private func row(_ item: IllnessItem, kind: EntryKind) -> some View {

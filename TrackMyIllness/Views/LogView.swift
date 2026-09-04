@@ -12,12 +12,17 @@ import SwiftUI
 struct LogView: View {
     /// Lets the empty state send the user to Settings to configure items.
     var openSettings: () -> Void = {}
+    /// Changes when something outside this tab has edited the catalog while the
+    /// tab stayed on screen — see RootView.
+    var refreshToken: Int = 0
 
     @State private var model: LogEntryViewModel
     @FocusState private var noteFocused: Bool
 
-    init(openSettings: @escaping () -> Void = {}, model: LogEntryViewModel? = nil) {
+    init(openSettings: @escaping () -> Void = {}, refreshToken: Int = 0,
+         model: LogEntryViewModel? = nil) {
         self.openSettings = openSettings
+        self.refreshToken = refreshToken
         _model = State(initialValue: model ?? LogEntryViewModel())
     }
 
@@ -61,6 +66,7 @@ struct LogView: View {
             .animation(.snappy, value: model.lastSavedEntry)
             .animation(.snappy, value: model.selectedItemID)
         }
+        .onChange(of: refreshToken) { _, _ in model.refresh() }
         .onAppear {
             model.refresh()
             #if DEBUG

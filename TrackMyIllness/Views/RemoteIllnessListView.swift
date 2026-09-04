@@ -13,11 +13,15 @@ import SwiftUI
 
 struct RemoteIllnessListView: View {
     @Bindable var model: CatalogViewModel
+    /// Passed down to the detail screens — see `IllnessDetailView.onAdd`.
+    var onAdd: ((Int) -> Void)?
 
     @State private var remote: RemoteIllnessViewModel
 
-    init(model: CatalogViewModel, remote: RemoteIllnessViewModel? = nil) {
+    init(model: CatalogViewModel, onAdd: ((Int) -> Void)? = nil,
+         remote: RemoteIllnessViewModel? = nil) {
         self.model = model
+        self.onAdd = onAdd
         _remote = State(initialValue: remote ?? RemoteIllnessViewModel())
     }
 
@@ -31,7 +35,7 @@ struct RemoteIllnessListView: View {
                 Section {
                     ForEach(remote.illnesses) { illness in
                         NavigationLink {
-                            IllnessDetailView(illness: illness, model: model)
+                            IllnessDetailView(illness: illness, model: model, onAdd: onAdd)
                         } label: {
                             row(illness)
                         }
